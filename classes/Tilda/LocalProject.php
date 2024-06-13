@@ -450,9 +450,9 @@ class LocalProject
 <?php
 return array(
     'id' => '{$page['id']}',
-    'title' => '{$page['title']}',
+    'title' => "{$page['title']}",
     'alias' => '{$page['alias']}',
-    'descr' => '{$page['descr']}',
+    'descr' => "{$page['descr']}",
     'img' => '{$page['img']}',
     'featureimg' => '{$page['featureimg']}',
     'socnetimg' => '{$page['socnetimg']}',

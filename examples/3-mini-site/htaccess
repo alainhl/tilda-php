@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^(?!tilda)(.*\.html)$ tilda/$1 [QSA,L]
