@@ -446,13 +446,17 @@ class LocalProject
         if (empty($page['socnetimg'])) {
             $page['socnetimg'] = '';
         }
+
+        $pageTitle = str_replace('"', '', $page['title']);
+        $pageDescr = str_replace('"', '', $page['descr']);
+
         $phpContent = <<<EOT
 <?php
 return array(
     'id' => '{$page['id']}',
-    'title' => "{$page['title']}",
+    'title' => "{$pageTitle}",
     'alias' => '{$page['alias']}',
-    'descr' => "{$page['descr']}",
+    'descr' => "{$pageDescr}",
     'img' => '{$page['img']}',
     'featureimg' => '{$page['featureimg']}',
     'socnetimg' => '{$page['socnetimg']}',
