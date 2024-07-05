@@ -447,8 +447,9 @@ class LocalProject
             $page['socnetimg'] = '';
         }
 
-        $pageTitle = str_replace('"', '', $page['title']);
-        $pageDescr = str_replace('"', '', $page['descr']);
+
+        $pageTitle = str_replace('"', "'", $page['title']);
+        $pageDescr = str_replace('"', "'", $page['descr']);
 
         $phpContent = <<<EOT
 <?php
