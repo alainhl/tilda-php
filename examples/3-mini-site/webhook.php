@@ -19,9 +19,9 @@
 include '..' . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'classes' . DIRECTORY_SEPARATOR . 'Tilda' . DIRECTORY_SEPARATOR . 'Api.php';
 include '..' . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'classes' . DIRECTORY_SEPARATOR . 'Tilda' . DIRECTORY_SEPARATOR . 'LocalProject.php';
 
-const TILDA_PUBLIC_KEY = '???';
-const TILDA_SECRET_KEY = '???';
-const TILDA_PROJECT_ID = '???';
+const TILDA_PUBLIC_KEY = 'x6i6nirjatlmk171cnzs';
+const TILDA_SECRET_KEY = 'cacf61136451915f7113';
+const TILDA_PROJECT_ID = '1598832';
 
 set_time_limit(0);
 
@@ -71,6 +71,7 @@ if (!file_exists($filename)) {
 
 /* помечаем, что страница обновилась */
 $arPage['needsync'] = 1;
+
 
 /* и сохраняем данные обратно */
 $local->saveMetaPage($arPage);

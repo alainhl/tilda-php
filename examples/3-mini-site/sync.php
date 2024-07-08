@@ -17,9 +17,9 @@
 include '..' . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'classes' . DIRECTORY_SEPARATOR . 'Tilda' . DIRECTORY_SEPARATOR . 'Api.php';
 include '..' . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'classes' . DIRECTORY_SEPARATOR . 'Tilda' . DIRECTORY_SEPARATOR . 'LocalProject.php';
 
-const TILDA_PUBLIC_KEY = '???';
-const TILDA_SECRET_KEY = '???';
-const TILDA_PROJECT_ID = '???';
+const TILDA_PUBLIC_KEY = 'x6i6nirjatlmk171cnzs';
+const TILDA_SECRET_KEY = 'cacf61136451915f7113';
+const TILDA_PROJECT_ID = '1598832';
 
 if (empty($_SERVER['DOCUMENT_ROOT'])) {
     $_SERVER['DOCUMENT_ROOT'] = __DIR__;
@@ -37,20 +37,27 @@ try {
 }
 
 /* Пробегаем список страниц и отбираем те, которые изменились */
+var_dump($local->getProjectFullDir()); 
+
 $arExportPages = array();
 $dir = $local->getProjectFullDir() . 'meta';
 if (file_exists($dir)) {
     $d = dir($dir);
 
     while (false !== ($entry = $d->read())) {
+//var_dump($entry); 
         if ($entry != '.' && $entry != '..' && !is_dir($dir . $entry)) {
             $pageNumber = substr($entry, 4, -4);
+//var_dump($pageNumber);
             if (
                 intval($pageNumber) . '' == $pageNumber
                 && $pageNumber > 0
                 && substr($entry, 0, 4) == 'page'
             ) {
-                $arPage = include $d->path . DIRECTORY_SEPARATOR . $entry;
+//var_dump($pageNumber);  
+              $arPage = include $d->path . DIRECTORY_SEPARATOR . $entry;
+
+var_dump($d->path . DIRECTORY_SEPARATOR . $entry);
                 if (!empty($arPage['needsync'])) {
                     $arExportPages[] = intval($pageNumber);
                 }
@@ -59,7 +66,7 @@ if (file_exists($dir)) {
     }
     $d->close();
 }
-
+var_dump($arExportPages); 
 /* если все таки есть, что экспортировать */
 if (count($arExportPages)) {
 
