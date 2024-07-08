@@ -14,9 +14,9 @@
 ///////////////////////////////////////////////////////////////////////////////
 include '..' . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'classes' . DIRECTORY_SEPARATOR . 'Tilda' . DIRECTORY_SEPARATOR . 'LocalProject.php';
 
-const TILDA_PUBLIC_KEY = '???';
-const TILDA_SECRET_KEY = '???';
-const TILDA_PROJECT_ID = '???';
+const TILDA_PUBLIC_KEY = 'xeizsm7obdx6lkewzm4p';
+const TILDA_SECRET_KEY = 'f136615fe82603fb8a39';
+const TILDA_PROJECT_ID = '1573748';
 
 try {
     $local = new Tilda\LocalProject(
