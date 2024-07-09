@@ -54,6 +54,7 @@ if ($projectid != TILDA_PROJECT_ID) {
 
 /* название файла, в котором хранятся данные по странице */
 $filename = $local->getProjectFullDir() . 'meta' . DIRECTORY_SEPARATOR . 'page' . $pageid . '.php';
+var_dump($filename);
 
 /* если такого файла не существует, значит это новая страница */
 if (!file_exists($filename)) {
@@ -71,7 +72,7 @@ if (!file_exists($filename)) {
 
 /* помечаем, что страница обновилась */
 $arPage['needsync'] = 1;
-
+var_dump($arPage);
 /* и сохраняем данные обратно */
 $local->saveMetaPage($arPage);
 
