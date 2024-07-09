@@ -1596,3 +1596,7 @@ RewriteRule ^page45613539.html$ 45613539.html
 RewriteRule ^10-mejores-practicas-para-lanzar$ 45613117.html
 
 RewriteRule ^page45613117.html$ 45613117.html
+
+RewriteRule ^como_crear_nuevos_programas_campaas1$ 45613823.html
+
+RewriteRule ^page45613823.html$ 45613823.html
