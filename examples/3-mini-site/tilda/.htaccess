@@ -1,0 +1,1582 @@
+ErrorDocument 403 /page8704262.html
+ErrorDocument 404 /page8704262.html
+
+DirectoryIndex page8112075.html
+
+RewriteEngine On
+
+#RewriteCond %{HTTP:X-Forwarded-Proto} =http
+#RewriteRule ^(.*)$ https://geniusreferrals\.com/$1 [R=301,L]
+
+#RewriteCond %{HTTP:X-Forwarded-Proto} =https
+#RewriteCond %{HTTP_HOST} ^www\.geniusreferrals.com [NC]
+#RewriteRule ^(.*)$ https://geniusreferrals\.com/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^frequently-asked-questions$ page20109062.html [NC]
+RewriteRule ^frequently-asked-questions/$ page20109062.html [NC]
+
+RewriteRule ^genius-referrals-updates-and-changes$ page21228813.html [NC]
+RewriteRule ^genius-referrals-updates-and-changes/$ page21228813.html [NC]
+
+RewriteRule ^blog$ page30668380.html [NC]
+RewriteRule ^blog/$ page30668380.html [NC]
+
+RewriteRule ^get-integrated-with-our-platform$ page7255936.html [NC]
+RewriteRule ^get-integrated-with-our-platform/$ page7255936.html [NC]
+
+RewriteRule ^templates-and-codes-snippets$ page20577156.html [NC]
+RewriteRule ^templates-and-codes-snippets/$ page20577156.html [NC]
+
+RewriteRule ^elizabeth-almeida$ page31105434.html [NC]
+RewriteRule ^elizabeth-almeida/$ page31105434.html [NC]
+
+RewriteRule ^blog-legacy$ page11619499.html [NC]
+RewriteRule ^blog-legacy/$ page11619499.html [NC]
+
+RewriteRule ^landing_page$ page8112075.html [NC]
+RewriteRule ^landing_page/$ page8112075.html [NC]
+
+RewriteRule ^partners$ page20266706.html [NC]
+RewriteRule ^partners/$ page20266706.html [NC]
+
+RewriteRule ^resources$ page7015665.html [NC]
+RewriteRule ^resources/$ page7015665.html [NC]
+
+RewriteRule ^referral-program-templates$ page10633202.html [NC]
+RewriteRule ^referral-program-templates/$ page10633202.html [NC]
+
+RewriteRule ^partners-portal$ page12701998.html [NC]
+RewriteRule ^partners-portal/$ page12701998.html [NC]
+
+RewriteRule ^conversion-scripts$ page20808241.html [NC]
+RewriteRule ^conversion-scripts/$ page20808241.html [NC]
+
+RewriteRule ^how_to_manage_redemption_requests$ page21831475.html [NC]
+RewriteRule ^how_to_manage_redemption_requests/$ page21831475.html [NC]
+
+RewriteRule ^about-us$ page12527184.html [NC]
+RewriteRule ^about-us/$ page12527184.html [NC]
+
+RewriteRule ^full-widget-template$ page20666733.html [NC]
+RewriteRule ^full-widget-template/$ page20666733.html [NC]
+
+RewriteRule ^classic-affiliate-website-template$ page32805759.html [NC]
+RewriteRule ^classic-affiliate-website-template/$ page32805759.html [NC]
+
+RewriteRule ^referral-program-most-frequently-asked-questions$ page7845521.html [NC]
+RewriteRule ^referral-program-most-frequently-asked-questions/$ page7845521.html [NC]
+
+RewriteRule ^kingsley-armelle-referral-program$ page20300994.html [NC]
+RewriteRule ^kingsley-armelle-referral-program/$ page20300994.html [NC]
+
+RewriteRule ^how_to_check_if_the_advocate_is_referrer_can_receive_a_bonus$ page21065926.html [NC]
+RewriteRule ^how_to_check_if_the_advocate_is_referrer_can_receive_a_bonus/$ page21065926.html [NC]
+
+RewriteRule ^how_to_give_bonuses_to_your_advocates$ page21043327.html [NC]
+RewriteRule ^how_to_give_bonuses_to_your_advocates/$ page21043327.html [NC]
+
+RewriteRule ^installations_scripts$ page20716249.html [NC]
+RewriteRule ^installations_scripts/$ page20716249.html [NC]
+
+RewriteRule ^how_to_manage_advocates$ page21038304.html [NC]
+RewriteRule ^how_to_manage_advocates/$ page21038304.html [NC]
+
+RewriteRule ^starling-customer-referral-program-template$ page17897442.html [NC]
+RewriteRule ^starling-customer-referral-program-template/$ page17897442.html [NC]
+
+RewriteRule ^integrations$ page12432099.html [NC]
+RewriteRule ^integrations/$ page12432099.html [NC]
+
+RewriteRule ^how_to_use_the_bonuses_section$ page7795942.html [NC]
+RewriteRule ^how_to_use_the_bonuses_section/$ page7795942.html [NC]
+
+RewriteRule ^referral_tracking_template$ page20688639.html [NC]
+RewriteRule ^referral_tracking_template/$ page20688639.html [NC]
+
+RewriteRule ^pos-template$ page20711686.html [NC]
+RewriteRule ^pos-template/$ page20711686.html [NC]
+
+RewriteRule ^how_to_give_a_bonus_to_the_advocate_is_referrer$ page21065257.html [NC]
+RewriteRule ^how_to_give_a_bonus_to_the_advocate_is_referrer/$ page21065257.html [NC]
+
+RewriteRule ^demo$ page9330004.html [NC]
+RewriteRule ^demo/$ page9330004.html [NC]
+
+RewriteRule ^referrals_tracking_template_for_your_referral_program_software$ page11750493.html [NC]
+RewriteRule ^referrals_tracking_template_for_your_referral_program_software/$ page11750493.html [NC]
+
+RewriteRule ^installing-your-referral-program-on-wordpress$ page25279602.html [NC]
+RewriteRule ^installing-your-referral-program-on-wordpress/$ page25279602.html [NC]
+
+RewriteRule ^how-do-i-link-an-advocate-to-a-referral$ page21489136.html [NC]
+RewriteRule ^how-do-i-link-an-advocate-to-a-referral/$ page21489136.html [NC]
+
+RewriteRule ^post_purchase_template_for_your_referral_program_software$ page21773848.html [NC]
+RewriteRule ^post_purchase_template_for_your_referral_program_software/$ page21773848.html [NC]
+
+RewriteRule ^share-links-template$ page20712227.html [NC]
+RewriteRule ^share-links-template/$ page20712227.html [NC]
+
+RewriteRule ^how-do-i-assign-advocates-to-a-campaign$ page21786150.html [NC]
+RewriteRule ^how-do-i-assign-advocates-to-a-campaign/$ page21786150.html [NC]
+
+RewriteRule ^payouts_with_paypal$ page22278955.html [NC]
+RewriteRule ^payouts_with_paypal/$ page22278955.html [NC]
+
+RewriteRule ^contact$ page9332071.html [NC]
+RewriteRule ^contact/$ page9332071.html [NC]
+
+RewriteRule ^personal_discount_code$ page21655167.html [NC]
+RewriteRule ^personal_discount_code/$ page21655167.html [NC]
+
+RewriteRule ^how_to_use_the_audit_trail_section$ page22126006.html [NC]
+RewriteRule ^how_to_use_the_audit_trail_section/$ page22126006.html [NC]
+
+RewriteRule ^how-do-i-cancel-my-account$ page20200670.html [NC]
+RewriteRule ^how-do-i-cancel-my-account/$ page20200670.html [NC]
+
+RewriteRule ^how-do-i-pause-my-account-subscription$ page20200998.html [NC]
+RewriteRule ^how-do-i-pause-my-account-subscription/$ page20200998.html [NC]
+
+RewriteRule ^one_click$ page21673520.html [NC]
+RewriteRule ^one_click/$ page21673520.html [NC]
+
+RewriteRule ^edit_form_fields$ page20808290.html [NC]
+RewriteRule ^edit_form_fields/$ page20808290.html [NC]
+
+RewriteRule ^payouts_with_tango_card$ page22340976.html [NC]
+RewriteRule ^payouts_with_tango_card/$ page22340976.html [NC]
+
+RewriteRule ^share_links_template_for_your_referral_program_software$ page11984277.html [NC]
+RewriteRule ^share_links_template_for_your_referral_program_software/$ page11984277.html [NC]
+
+RewriteRule ^transfer_bonus$ page11770022.html [NC]
+RewriteRule ^transfer_bonus/$ page11770022.html [NC]
+
+RewriteRule ^best-referral-software-solutions-for-every-step-of-the-way$ page11995850.html [NC]
+RewriteRule ^best-referral-software-solutions-for-every-step-of-the-way/$ page11995850.html [NC]
+
+RewriteRule ^discount_code_template$ page17266985.html [NC]
+RewriteRule ^discount_code_template/$ page17266985.html [NC]
+
+RewriteRule ^multi_column_forms$ page21132113.html [NC]
+RewriteRule ^multi_column_forms/$ page21132113.html [NC]
+
+RewriteRule ^install-your-referral-program-on-drupal-cms$ page7583380.html [NC]
+RewriteRule ^install-your-referral-program-on-drupal-cms/$ page7583380.html [NC]
+
+RewriteRule ^how_it_works$ page11996851.html [NC]
+RewriteRule ^how_it_works/$ page11996851.html [NC]
+
+RewriteRule ^bonus-approval-process$ page27702708.html [NC]
+RewriteRule ^bonus-approval-process/$ page27702708.html [NC]
+
+RewriteRule ^where-can-i-change-my-plan$ page20201159.html [NC]
+RewriteRule ^where-can-i-change-my-plan/$ page20201159.html [NC]
+
+RewriteRule ^how-do-i-find-my-invoice$ page20201219.html [NC]
+RewriteRule ^how-do-i-find-my-invoice/$ page20201219.html [NC]
+
+RewriteRule ^installing_your_referral_program_on_joomla$ page7362563.html [NC]
+RewriteRule ^installing_your_referral_program_on_joomla/$ page7362563.html [NC]
+
+RewriteRule ^how_to_import_your_current_customers_into_our_platform$ page21067378.html [NC]
+RewriteRule ^how_to_import_your_current_customers_into_our_platform/$ page21067378.html [NC]
+
+RewriteRule ^icons_in_the_editor$ page20880764.html [NC]
+RewriteRule ^icons_in_the_editor/$ page20880764.html [NC]
+
+RewriteRule ^plans-and-princing$ page14373079.html [NC]
+RewriteRule ^plans-and-princing/$ page14373079.html [NC]
+
+RewriteRule ^referral_tracking_signup_template$ page17267161.html [NC]
+RewriteRule ^referral_tracking_signup_template/$ page17267161.html [NC]
+
+RewriteRule ^page_settings$ page20968007.html [NC]
+RewriteRule ^page_settings/$ page20968007.html [NC]
+
+RewriteRule ^mailchimp_integration$ page7809965.html [NC]
+RewriteRule ^mailchimp_integration/$ page7809965.html [NC]
+
+RewriteRule ^how-do-i-reset-my-password$ page20201392.html [NC]
+RewriteRule ^how-do-i-reset-my-password/$ page20201392.html [NC]
+
+RewriteRule ^referrals_tracking_simple_template$ page17267166.html [NC]
+RewriteRule ^referrals_tracking_simple_template/$ page17267166.html [NC]
+
+RewriteRule ^redirect-referrals-to-a-new-page$ page27338726.html [NC]
+RewriteRule ^redirect-referrals-to-a-new-page/$ page27338726.html [NC]
+
+RewriteRule ^connect_your_referral_program_with_the_apps_that_you_via_zapier$ page13022753.html [NC]
+RewriteRule ^connect_your_referral_program_with_the_apps_that_you_via_zapier/$ page13022753.html [NC]
+
+RewriteRule ^website-builder-editor$ page20880735.html [NC]
+RewriteRule ^website-builder-editor/$ page20880735.html [NC]
+
+RewriteRule ^simplify-your-referral-program-with-genius-referrals-and-zapier$ page32210543.html [NC]
+RewriteRule ^simplify-your-referral-program-with-genius-referrals-and-zapier/$ page32210543.html [NC]
+
+RewriteRule ^how-can-an-advocate-reset-their-password$ page27702712.html [NC]
+RewriteRule ^how-can-an-advocate-reset-their-password/$ page27702712.html [NC]
+
+RewriteRule ^where-can-i-change-update-my-payment-method$ page20214984.html [NC]
+RewriteRule ^where-can-i-change-update-my-payment-method/$ page20214984.html [NC]
+
+RewriteRule ^referral_tracking_simple_signup_template$ page17267175.html [NC]
+RewriteRule ^referral_tracking_simple_signup_template/$ page17267175.html [NC]
+
+RewriteRule ^how-to-remove-poweredby-genius-referrals$ page20673614.html [NC]
+RewriteRule ^how-to-remove-poweredby-genius-referrals/$ page20673614.html [NC]
+
+RewriteRule ^how-do-i-change-page-fonts$ page25279056.html [NC]
+RewriteRule ^how-do-i-change-page-fonts/$ page25279056.html [NC]
+
+RewriteRule ^install_your_referral_program_on_prestashop$ page7774589.html [NC]
+RewriteRule ^install_your_referral_program_on_prestashop/$ page7774589.html [NC]
+
+RewriteRule ^email-eddress-verification$ page28876775.html [NC]
+RewriteRule ^email-eddress-verification/$ page28876775.html [NC]
+
+RewriteRule ^basic_form_template$ page17267177.html [NC]
+RewriteRule ^basic_form_template/$ page17267177.html [NC]
+
+RewriteRule ^what_is_my_advocate_limit$ page25272100.html [NC]
+RewriteRule ^what_is_my_advocate_limit/$ page25272100.html [NC]
+
+RewriteRule ^installing_your_referral_program_on_cscart$ page16817630.html [NC]
+RewriteRule ^installing_your_referral_program_on_cscart/$ page16817630.html [NC]
+
+RewriteRule ^manual-bonus-limits$ page28878055.html [NC]
+RewriteRule ^manual-bonus-limits/$ page28878055.html [NC]
+
+RewriteRule ^how_tos$ page7776250.html [NC]
+RewriteRule ^how_tos/$ page7776250.html [NC]
+
+RewriteRule ^how-to-turn-a-referral-into-an-advocate$ page28448305.html [NC]
+RewriteRule ^how-to-turn-a-referral-into-an-advocate/$ page28448305.html [NC]
+
+RewriteRule ^installing_your_referral_program_on_ecwid$ page16737644.html [NC]
+RewriteRule ^installing_your_referral_program_on_ecwid/$ page16737644.html [NC]
+
+RewriteRule ^member-approval-process$ page28875899.html [NC]
+RewriteRule ^member-approval-process/$ page28875899.html [NC]
+
+RewriteRule ^genius-bluejay-template$ page20511433.html [NC]
+RewriteRule ^genius-bluejay-template/$ page20511433.html [NC]
+
+RewriteRule ^installing_your_referral_program_on_magento$ page16595757.html [NC]
+RewriteRule ^installing_your_referral_program_on_magento/$ page16595757.html [NC]
+
+RewriteRule ^how-do-i-get-refund-from-my-tango-card-escrow-account$ page26345865.html [NC]
+RewriteRule ^how-do-i-get-refund-from-my-tango-card-escrow-account/$ page26345865.html [NC]
+
+RewriteRule ^genius-bluebird-template$ page20611822.html [NC]
+RewriteRule ^genius-bluebird-template/$ page20611822.html [NC]
+
+RewriteRule ^genius-magpie-template$ page19435181.html [NC]
+RewriteRule ^genius-magpie-template/$ page19435181.html [NC]
+
+RewriteRule ^where-do-i-see-a-list-of-all-my-advocates$ page20181177.html [NC]
+RewriteRule ^where-do-i-see-a-list-of-all-my-advocates/$ page20181177.html [NC]
+
+RewriteRule ^installing_your_referral_program_on_americommerce$ page16817615.html [NC]
+RewriteRule ^installing_your_referral_program_on_americommerce/$ page16817615.html [NC]
+
+RewriteRule ^genius-rosefinch-template$ page19022165.html [NC]
+RewriteRule ^genius-rosefinch-template/$ page19022165.html [NC]
+
+RewriteRule ^installing_your_referral_program_on_bigcommerce$ page16817639.html [NC]
+RewriteRule ^installing_your_referral_program_on_bigcommerce/$ page16817639.html [NC]
+
+RewriteRule ^how-do-i-get-notified-of-new-advocates-and-referrals$ page20201721.html [NC]
+RewriteRule ^how-do-i-get-notified-of-new-advocates-and-referrals/$ page20201721.html [NC]
+
+RewriteRule ^how-to-add-custom-fields-to-the-registration-form$ page20166420.html [NC]
+RewriteRule ^how-to-add-custom-fields-to-the-registration-form/$ page20166420.html [NC]
+
+RewriteRule ^installing_your_referral_program_on_squarespace$ page16817642.html [NC]
+RewriteRule ^installing_your_referral_program_on_squarespace/$ page16817642.html [NC]
+
+RewriteRule ^genius-kingfisher-template$ page19645423.html [NC]
+RewriteRule ^genius-kingfisher-template/$ page19645423.html [NC]
+
+RewriteRule ^genius-classic-post-purchase$ page21699962.html [NC]
+RewriteRule ^genius-classic-post-purchase/$ page21699962.html [NC]
+
+RewriteRule ^how-do-i-download-advocates-in-a-csv-file$ page26942104.html [NC]
+RewriteRule ^how-do-i-download-advocates-in-a-csv-file/$ page26942104.html [NC]
+
+RewriteRule ^installing_your_referral_program_on_woocommerce$ page16817645.html [NC]
+RewriteRule ^installing_your_referral_program_on_woocommerce/$ page16817645.html [NC]
+
+RewriteRule ^is-genius-referrals-pci-dss-compliant$ page29091146.html [NC]
+RewriteRule ^is-genius-referrals-pci-dss-compliant/$ page29091146.html [NC]
+
+RewriteRule ^bluejay-post-purchase-template$ page21773794.html [NC]
+RewriteRule ^bluejay-post-purchase-template/$ page21773794.html [NC]
+
+RewriteRule ^installing_your_referral_program_on_opencart$ page16817646.html [NC]
+RewriteRule ^installing_your_referral_program_on_opencart/$ page16817646.html [NC]
+
+RewriteRule ^connect_your_referral_program_with_google_analytics$ page16881457.html [NC]
+RewriteRule ^connect_your_referral_program_with_google_analytics/$ page16881457.html [NC]
+
+RewriteRule ^how-to-create-a-default-email-message-for-your-advocates-to-send-out$ page28995789.html [NC]
+RewriteRule ^how-to-create-a-default-email-message-for-your-advocates-to-send-out/$ page28995789.html [NC]
+
+RewriteRule ^bluebird-post-purchase-template$ page21773802.html [NC]
+RewriteRule ^bluebird-post-purchase-template/$ page21773802.html [NC]
+
+RewriteRule ^installing_your_referral_program_on_tilda$ page17057902.html [NC]
+RewriteRule ^installing_your_referral_program_on_tilda/$ page17057902.html [NC]
+
+RewriteRule ^rosefinch-post-purchase-template$ page21773809.html [NC]
+RewriteRule ^rosefinch-post-purchase-template/$ page21773809.html [NC]
+
+RewriteRule ^how-do-i-manually-create-or-issue-a-reward$ page28996052.html [NC]
+RewriteRule ^how-do-i-manually-create-or-issue-a-reward/$ page28996052.html [NC]
+
+RewriteRule ^kingfisher-post-purchase-template$ page21773813.html [NC]
+RewriteRule ^kingfisher-post-purchase-template/$ page21773813.html [NC]
+
+RewriteRule ^install_your_referral_program_on_shopify$ page7774565.html [NC]
+RewriteRule ^install_your_referral_program_on_shopify/$ page7774565.html [NC]
+
+RewriteRule ^starling-post-purchase-template$ page21773823.html [NC]
+RewriteRule ^starling-post-purchase-template/$ page21773823.html [NC]
+
+RewriteRule ^magpie-post-purchase-template$ page21773831.html [NC]
+RewriteRule ^magpie-post-purchase-template/$ page21773831.html [NC]
+
+RewriteRule ^how-do-i-download-referrals-in-a-csv-file$ page28998428.html [NC]
+RewriteRule ^how-do-i-download-referrals-in-a-csv-file/$ page28998428.html [NC]
+
+RewriteRule ^3dcart-referral-program-integration$ page25833156.html [NC]
+RewriteRule ^3dcart-referral-program-integration/$ page25833156.html [NC]
+
+RewriteRule ^subscription-form-template$ page25448900.html [NC]
+RewriteRule ^subscription-form-template/$ page25448900.html [NC]
+
+RewriteRule ^installing_your_referral_program_on_3dcart$ page16372991.html [NC]
+RewriteRule ^installing_your_referral_program_on_3dcart/$ page16372991.html [NC]
+
+RewriteRule ^course-application-template$ page25449592.html [NC]
+RewriteRule ^course-application-template/$ page25449592.html [NC]
+
+RewriteRule ^whatshouldidowhen-the-payout-request-is-stuck-on-hold$ page22284008.html [NC]
+RewriteRule ^whatshouldidowhen-the-payout-request-is-stuck-on-hold/$ page22284008.html [NC]
+
+RewriteRule ^how-do-i-fund-my-tango-card-account$ page26294333.html [NC]
+RewriteRule ^how-do-i-fund-my-tango-card-account/$ page26294333.html [NC]
+
+RewriteRule ^request-a-quote-form-template$ page25451204.html [NC]
+RewriteRule ^request-a-quote-form-template/$ page25451204.html [NC]
+
+RewriteRule ^lesson-registration-frorm-template$ page25451506.html [NC]
+RewriteRule ^lesson-registration-frorm-template/$ page25451506.html [NC]
+
+RewriteRule ^how-do-i-set-up-gift-cards-rewards-on-autopilot$ page26345773.html [NC]
+RewriteRule ^how-do-i-set-up-gift-cards-rewards-on-autopilot/$ page26345773.html [NC]
+
+RewriteRule ^green-template$ page25650585.html [NC]
+RewriteRule ^green-template/$ page25650585.html [NC]
+
+RewriteRule ^brown-template$ page25651145.html [NC]
+RewriteRule ^brown-template/$ page25651145.html [NC]
+
+RewriteRule ^how-can-i-edit-the-payment-method-configuration$ page27180791.html [NC]
+RewriteRule ^how-can-i-edit-the-payment-method-configuration/$ page27180791.html [NC]
+
+RewriteRule ^blue-template$ page25651371.html [NC]
+RewriteRule ^blue-template/$ page25651371.html [NC]
+
+RewriteRule ^how-do-i-change-the-image-that-is-shared-on-social-media$ page28998854.html [NC]
+RewriteRule ^how-do-i-change-the-image-that-is-shared-on-social-media/$ page28998854.html [NC]
+
+RewriteRule ^developers$ page13141045.html [NC]
+RewriteRule ^developers/$ page13141045.html [NC]
+
+RewriteRule ^simple_integration_method$ page7796376.html [NC]
+RewriteRule ^simple_integration_method/$ page7796376.html [NC]
+
+RewriteRule ^how_to_send_extra_referral_data_using_method_processcustomer$ page7796380.html [NC]
+RewriteRule ^how_to_send_extra_referral_data_using_method_processcustomer/$ page7796380.html [NC]
+
+RewriteRule ^how_to_send_the_referrer_directly_on_the_processcustomer_method$ page7796406.html [NC]
+RewriteRule ^how_to_send_the_referrer_directly_on_the_processcustomer_method/$ page7796406.html [NC]
+
+RewriteRule ^advanced-integration-method$ page7256025.html [NC]
+RewriteRule ^advanced-integration-method/$ page7256025.html [NC]
+
+RewriteRule ^how_to_implement_share_pages_on_my_app$ page7796082.html [NC]
+RewriteRule ^how_to_implement_share_pages_on_my_app/$ page7796082.html [NC]
+
+RewriteRule ^how_to_implement_a_customer_dashboard$ page7796309.html [NC]
+RewriteRule ^how_to_implement_a_customer_dashboard/$ page7796309.html [NC]
+
+RewriteRule ^how_to_capture_new_referrals_on_my_app$ page7931829.html [NC]
+RewriteRule ^how_to_capture_new_referrals_on_my_app/$ page7931829.html [NC]
+
+RewriteRule ^how_to_give_bonuses_to_an_advocate$ page7796325.html [NC]
+RewriteRule ^how_to_give_bonuses_to_an_advocate/$ page7796325.html [NC]
+
+RewriteRule ^how_to_let_my_advocates_to_manages_their_bonuses$ page7796341.html [NC]
+RewriteRule ^how_to_let_my_advocates_to_manages_their_bonuses/$ page7796341.html [NC]
+
+RewriteRule ^how_to_register_new_advocates$ page7796358.html [NC]
+RewriteRule ^how_to_register_new_advocates/$ page7796358.html [NC]
+
+RewriteRule ^getting_started_whit_our_restful_api$ page7842601.html [NC]
+RewriteRule ^getting_started_whit_our_restful_api/$ page7842601.html [NC]
+
+RewriteRule ^restful_api$ page7842564.html [NC]
+RewriteRule ^restful_api/$ page7842564.html [NC]
+
+RewriteRule ^authentication$ page7842648.html [NC]
+RewriteRule ^authentication/$ page7842648.html [NC]
+
+RewriteRule ^sdks$ page7844583.html [NC]
+RewriteRule ^sdks/$ page7844583.html [NC]
+
+RewriteRule ^the_genius_referrals_refer_a_friend_program$ page7842997.html [NC]
+RewriteRule ^the_genius_referrals_refer_a_friend_program/$ page7842997.html [NC]
+
+RewriteRule ^error-404$ page8704262.html [NC]
+RewriteRule ^error-404/$ page8704262.html [NC]
+
+RewriteRule ^header$ page8713895.html [NC]
+RewriteRule ^header/$ page8713895.html [NC]
+
+RewriteRule ^footer$ page8713899.html [NC]
+RewriteRule ^footer/$ page8713899.html [NC]
+
+RewriteRule ^privacy-policy$ page8873565.html [NC]
+RewriteRule ^privacy-policy/$ page8873565.html [NC]
+
+RewriteRule ^terms-conditions$ page8873632.html [NC]
+RewriteRule ^terms-conditions/$ page8873632.html [NC]
+
+RewriteRule ^10-best-practices-for-launching-a-successful-referral-program$ page14092320.html [NC]
+RewriteRule ^10-best-practices-for-launching-a-successful-referral-program/$ page14092320.html [NC]
+
+RewriteRule ^7-pitfalls-to-avoid-in-your-referral-program$ page14395746.html [NC]
+RewriteRule ^7-pitfalls-to-avoid-in-your-referral-program/$ page14395746.html [NC]
+
+RewriteRule ^6-referral-email-examples-to-inspire-your-own-campaigns$ page14700896.html [NC]
+RewriteRule ^6-referral-email-examples-to-inspire-your-own-campaigns/$ page14700896.html [NC]
+
+RewriteRule ^7-ways-to-promote-your-referral-program$ page15972834.html [NC]
+RewriteRule ^7-ways-to-promote-your-referral-program/$ page15972834.html [NC]
+
+RewriteRule ^5_best_practices_for_referral_share_messaging$ page16994219.html [NC]
+RewriteRule ^5_best_practices_for_referral_share_messaging/$ page16994219.html [NC]
+
+RewriteRule ^supported-browsers-and-devices$ page17380054.html [NC]
+RewriteRule ^supported-browsers-and-devices/$ page17380054.html [NC]
+
+RewriteRule ^the-ultimate-guide-to-referral-rewards$ page17826790.html [NC]
+RewriteRule ^the-ultimate-guide-to-referral-rewards/$ page17826790.html [NC]
+
+RewriteRule ^29-statistics-that-prove-word-of-mouth-marketing-works$ page18173148.html [NC]
+RewriteRule ^29-statistics-that-prove-word-of-mouth-marketing-works/$ page18173148.html [NC]
+
+RewriteRule ^6-must-haves-for-your-referral-program-landing-page$ page18632670.html [NC]
+RewriteRule ^6-must-haves-for-your-referral-program-landing-page/$ page18632670.html [NC]
+
+RewriteRule ^referrals$ page19054539.html [NC]
+RewriteRule ^referrals/$ page19054539.html [NC]
+
+RewriteRule ^everything-you-need-to-know-about-newsletter-referral-programs$ page19430447.html [NC]
+RewriteRule ^everything-you-need-to-know-about-newsletter-referral-programs/$ page19430447.html [NC]
+
+RewriteRule ^how_to_create_new_programs_and_campaigns$ page20398348.html [NC]
+RewriteRule ^how_to_create_new_programs_and_campaigns/$ page20398348.html [NC]
+
+RewriteRule ^how-to-set-up-a-referral-program-with-multiples-currencies$ page20715301.html [NC]
+RewriteRule ^how-to-set-up-a-referral-program-with-multiples-currencies/$ page20715301.html [NC]
+
+RewriteRule ^mastering_campaigns_set_up$ page20528320.html [NC]
+RewriteRule ^mastering_campaigns_set_up/$ page20528320.html [NC]
+
+RewriteRule ^how_to_set_up_new_tiers_for_my_referral_program$ page20531322.html [NC]
+RewriteRule ^how_to_set_up_new_tiers_for_my_referral_program/$ page20531322.html [NC]
+
+RewriteRule ^how_to_add_extra_rules_to_a_campaign$ page20533029.html [NC]
+RewriteRule ^how_to_add_extra_rules_to_a_campaign/$ page20533029.html [NC]
+
+RewriteRule ^how_to_set_up_levels_in_your_campaign$ page20533469.html [NC]
+RewriteRule ^how_to_set_up_levels_in_your_campaign/$ page20533469.html [NC]
+
+RewriteRule ^how_to_set_up_a_widgets_package$ page20533564.html [NC]
+RewriteRule ^how_to_set_up_a_widgets_package/$ page20533564.html [NC]
+
+RewriteRule ^10-best-practices-for-launching-a-referral-program$ page20573739.html [NC]
+RewriteRule ^10-best-practices-for-launching-a-referral-program/$ page20573739.html [NC]
+
+RewriteRule ^5-best-practices-for-share-messaging$ page20575129.html [NC]
+RewriteRule ^5-best-practices-for-share-messaging/$ page20575129.html [NC]
+
+RewriteRule ^triggering_customer_acquisition_with_referral_marketing_programs$ page20575291.html [NC]
+RewriteRule ^triggering_customer_acquisition_with_referral_marketing_programs/$ page20575291.html [NC]
+
+RewriteRule ^how_to_register$ page20576440.html [NC]
+RewriteRule ^how_to_register/$ page20576440.html [NC]
+
+RewriteRule ^advocate-share-messaging$ page20695303.html [NC]
+RewriteRule ^advocate-share-messaging/$ page20695303.html [NC]
+
+RewriteRule ^code_snippets$ page21346976.html [NC]
+RewriteRule ^code_snippets/$ page21346976.html [NC]
+
+RewriteRule ^how-do-i-edit-my-program$ page21792819.html [NC]
+RewriteRule ^how-do-i-edit-my-program/$ page21792819.html [NC]
+
+RewriteRule ^5_mistakes_in_referral_marketing$ page21932867.html [NC]
+RewriteRule ^5_mistakes_in_referral_marketing/$ page21932867.html [NC]
+
+RewriteRule ^affiliate_marketing_tactics$ page22819885.html [NC]
+RewriteRule ^affiliate_marketing_tactics/$ page22819885.html [NC]
+
+RewriteRule ^4-estrategias-efectivas-para$ page25486677.html [NC]
+RewriteRule ^4-estrategias-efectivas-para/$ page25486677.html [NC]
+
+RewriteRule ^optimize-one-of-the-keys-to-succes$ page26076740.html [NC]
+RewriteRule ^optimize-one-of-the-keys-to-succes/$ page26076740.html [NC]
+
+RewriteRule ^from-tiktok-to-facebook-the-most-successful-social-networks$ page26094410.html [NC]
+RewriteRule ^from-tiktok-to-facebook-the-most-successful-social-networks/$ page26094410.html [NC]
+
+RewriteRule ^how-can-tiktok-boost-a-marketing-campaign$ page26107182.html [NC]
+RewriteRule ^how-can-tiktok-boost-a-marketing-campaign/$ page26107182.html [NC]
+
+RewriteRule ^4-tips-for-referral-marketing-on-facebook$ page26131331.html [NC]
+RewriteRule ^4-tips-for-referral-marketing-on-facebook/$ page26131331.html [NC]
+
+RewriteRule ^sustainability-is-one-of-the-marketing-trends$ page26155033.html [NC]
+RewriteRule ^sustainability-is-one-of-the-marketing-trends/$ page26155033.html [NC]
+
+RewriteRule ^4-marketing-campaigns-that-support-women-empowerment$ page26196503.html [NC]
+RewriteRule ^4-marketing-campaigns-that-support-women-empowerment/$ page26196503.html [NC]
+
+RewriteRule ^10-tools-that-will-help-you-with-a-marketing-strategy$ page26256958.html [NC]
+RewriteRule ^10-tools-that-will-help-you-with-a-marketing-strategy/$ page26256958.html [NC]
+
+RewriteRule ^green-marketing-neuromarketing-and-4-other-current-trend$ page26294957.html [NC]
+RewriteRule ^green-marketing-neuromarketing-and-4-other-current-trend/$ page26294957.html [NC]
+
+RewriteRule ^geographic-marketing-and-sports-marketing$ page26318820.html [NC]
+RewriteRule ^geographic-marketing-and-sports-marketing/$ page26318820.html [NC]
+
+RewriteRule ^personal-marketing-an-evolving-trend$ page26354738.html [NC]
+RewriteRule ^personal-marketing-an-evolving-trend/$ page26354738.html [NC]
+
+RewriteRule ^techniques-to-automate-a-referral-program$ page26375428.html [NC]
+RewriteRule ^techniques-to-automate-a-referral-program/$ page26375428.html [NC]
+
+RewriteRule ^7-advantages-of-automating-a-referral-program$ page26399031.html [NC]
+RewriteRule ^7-advantages-of-automating-a-referral-program/$ page26399031.html [NC]
+
+RewriteRule ^how-to-automate-a-referral-marketing-campaign$ page26431914.html [NC]
+RewriteRule ^how-to-automate-a-referral-marketing-campaign/$ page26431914.html [NC]
+
+RewriteRule ^tools-to-integrate-and-automate-in-our-digital-marketing-strategy$ page26461820.html [NC]
+RewriteRule ^tools-to-integrate-and-automate-in-our-digital-marketing-strategy/$ page26461820.html [NC]
+
+RewriteRule ^5-advantages-of-crm-marketing$ page26484972.html [NC]
+RewriteRule ^5-advantages-of-crm-marketing/$ page26484972.html [NC]
+
+RewriteRule ^what-crm-to-use-to-optimize-a-digital-marketing-strategy$ page26513066.html [NC]
+RewriteRule ^what-crm-to-use-to-optimize-a-digital-marketing-strategy/$ page26513066.html [NC]
+
+RewriteRule ^how-are-marketing-and-advertising-transformed$ page26529504.html [NC]
+RewriteRule ^how-are-marketing-and-advertising-transformed/$ page26529504.html [NC]
+
+RewriteRule ^5-tips-to-get-the-most-out-of-crm-marketing$ page26549387.html [NC]
+RewriteRule ^5-tips-to-get-the-most-out-of-crm-marketing/$ page26549387.html [NC]
+
+RewriteRule ^what-are-the-main-contributions-of-crm-marketing$ page26574594.html [NC]
+RewriteRule ^what-are-the-main-contributions-of-crm-marketing/$ page26574594.html [NC]
+
+RewriteRule ^7-advantages-of-implementing-an-affiliate-marketing-program$ page26606167.html [NC]
+RewriteRule ^7-advantages-of-implementing-an-affiliate-marketing-program/$ page26606167.html [NC]
+
+RewriteRule ^affiliate-marketing-strategies-that-will-make-sales-take-off$ page26656043.html [NC]
+RewriteRule ^affiliate-marketing-strategies-that-will-make-sales-take-off/$ page26656043.html [NC]
+
+RewriteRule ^how-to-develop-an-effective-affiliate-program$ page26662642.html [NC]
+RewriteRule ^how-to-develop-an-effective-affiliate-program/$ page26662642.html [NC]
+
+RewriteRule ^4-elementary-tips-to-promote-a-good-affiliate-marketing-strategy$ page26703629.html [NC]
+RewriteRule ^4-elementary-tips-to-promote-a-good-affiliate-marketing-strategy/$ page26703629.html [NC]
+
+RewriteRule ^7-popular-programs-that-report-high-profits$ page26719479.html [NC]
+RewriteRule ^7-popular-programs-that-report-high-profits/$ page26719479.html [NC]
+
+RewriteRule ^neuromarketing-strategies-that-we-can-apply$ page26766190.html [NC]
+RewriteRule ^neuromarketing-strategies-that-we-can-apply/$ page26766190.html [NC]
+
+RewriteRule ^how-can-you-make-it-easier-during-tax-season$ page26806825.html [NC]
+RewriteRule ^how-can-you-make-it-easier-during-tax-season/$ page26806825.html [NC]
+
+RewriteRule ^marketing-artificial-intelligence-relationship$ page26828789.html [NC]
+RewriteRule ^marketing-artificial-intelligence-relationship/$ page26828789.html [NC]
+
+RewriteRule ^6-tips-to-apply-artificial-intelligence-techniques$ page26867686.html [NC]
+RewriteRule ^6-tips-to-apply-artificial-intelligence-techniques/$ page26867686.html [NC]
+
+RewriteRule ^marketing-strategy-based-on-artificial-intelligence$ page26892026.html [NC]
+RewriteRule ^marketing-strategy-based-on-artificial-intelligence/$ page26892026.html [NC]
+
+RewriteRule ^5-marketing-strategies-in-tax-season$ page26919503.html [NC]
+RewriteRule ^5-marketing-strategies-in-tax-season/$ page26919503.html [NC]
+
+RewriteRule ^knowing-genius-referrals-advocate-portal$ page26950597.html [NC]
+RewriteRule ^knowing-genius-referrals-advocate-portal/$ page26950597.html [NC]
+
+RewriteRule ^3-vanguard-trends-in-digital-marketing$ page26978003.html [NC]
+RewriteRule ^3-vanguard-trends-in-digital-marketing/$ page26978003.html [NC]
+
+RewriteRule ^types-of-mobile-advertising$ page27029463.html [NC]
+RewriteRule ^types-of-mobile-advertising/$ page27029463.html [NC]
+
+RewriteRule ^6-true-advantages-of-applying-programmatic-advertising$ page27063309.html [NC]
+RewriteRule ^6-true-advantages-of-applying-programmatic-advertising/$ page27063309.html [NC]
+
+RewriteRule ^online-video-advertising-or-video-marketing$ page27090356.html [NC]
+RewriteRule ^online-video-advertising-or-video-marketing/$ page27090356.html [NC]
+
+RewriteRule ^referral-rewards-system-of-your-choice$ page27119327.html [NC]
+RewriteRule ^referral-rewards-system-of-your-choice/$ page27119327.html [NC]
+
+RewriteRule ^5-most-popular-rewards-programs$ page27178857.html [NC]
+RewriteRule ^5-most-popular-rewards-programs/$ page27178857.html [NC]
+
+RewriteRule ^why-are-chatbots-revolutionizing-marketing$ page27203833.html [NC]
+RewriteRule ^why-are-chatbots-revolutionizing-marketing/$ page27203833.html [NC]
+
+RewriteRule ^chatbots-keys-to-integrate-it-into-the-digital-strategy$ page27229098.html [NC]
+RewriteRule ^chatbots-keys-to-integrate-it-into-the-digital-strategy/$ page27229098.html [NC]
+
+RewriteRule ^marketing-megatrends-that-guide-strategies$ page27259503.html [NC]
+RewriteRule ^marketing-megatrends-that-guide-strategies/$ page27259503.html [NC]
+
+RewriteRule ^all-metrics-in-the-genius-advocate-portal$ page27288018.html [NC]
+RewriteRule ^all-metrics-in-the-genius-advocate-portal/$ page27288018.html [NC]
+
+RewriteRule ^how-to-promote-a-marketing-strategy-using-big-data$ page27318486.html [NC]
+RewriteRule ^how-to-promote-a-marketing-strategy-using-big-data/$ page27318486.html [NC]
+
+RewriteRule ^webhooks$ page27338660.html [NC]
+RewriteRule ^webhooks/$ page27338660.html [NC]
+
+RewriteRule ^marketing-and-local-development$ page27371797.html [NC]
+RewriteRule ^marketing-and-local-development/$ page27371797.html [NC]
+
+RewriteRule ^big-data-marketing-a-gift-of-automation$ page27397387.html [NC]
+RewriteRule ^big-data-marketing-a-gift-of-automation/$ page27397387.html [NC]
+
+RewriteRule ^5-successful-strategies-of-brands-that-use-big-data$ page27401318.html [NC]
+RewriteRule ^5-successful-strategies-of-brands-that-use-big-data/$ page27401318.html [NC]
+
+RewriteRule ^empowering-promoters-is-our-key-to-success$ page27436598.html [NC]
+RewriteRule ^empowering-promoters-is-our-key-to-success/$ page27436598.html [NC]
+
+RewriteRule ^7-marketing-strategies-small-business-should-consider$ page27480322.html [NC]
+RewriteRule ^7-marketing-strategies-small-business-should-consider/$ page27480322.html [NC]
+
+RewriteRule ^marketing-in-the-metaverse$ page27506263.html [NC]
+RewriteRule ^marketing-in-the-metaverse/$ page27506263.html [NC]
+
+RewriteRule ^challenges-and-transformations-in-digital-marketing$ page27540161.html [NC]
+RewriteRule ^challenges-and-transformations-in-digital-marketing/$ page27540161.html [NC]
+
+RewriteRule ^virtual-reality-marketing-and-a-referral-strategy$ page27555745.html [NC]
+RewriteRule ^virtual-reality-marketing-and-a-referral-strategy/$ page27555745.html [NC]
+
+RewriteRule ^varied-and-affordable-offers-for-all-companies$ page27574480.html [NC]
+RewriteRule ^varied-and-affordable-offers-for-all-companies/$ page27574480.html [NC]
+
+RewriteRule ^augmented-reality-marketing$ page27626055.html [NC]
+RewriteRule ^augmented-reality-marketing/$ page27626055.html [NC]
+
+RewriteRule ^what-distinguishes-virtual-reality-marketing$ page27645192.html [NC]
+RewriteRule ^what-distinguishes-virtual-reality-marketing/$ page27645192.html [NC]
+
+RewriteRule ^how-to-apply-augmented-intelligence-to-marketing$ page27703455.html [NC]
+RewriteRule ^how-to-apply-augmented-intelligence-to-marketing/$ page27703455.html [NC]
+
+RewriteRule ^superior-service-satisfied-costumer$ page27735994.html [NC]
+RewriteRule ^superior-service-satisfied-costumer/$ page27735994.html [NC]
+
+RewriteRule ^natural-language-processing-in-marketing$ page27764820.html [NC]
+RewriteRule ^natural-language-processing-in-marketing/$ page27764820.html [NC]
+
+RewriteRule ^advanced-conversational-systems-in-referral-marketing$ page27811142.html [NC]
+RewriteRule ^advanced-conversational-systems-in-referral-marketing/$ page27811142.html [NC]
+
+RewriteRule ^how-to-implement-an-effective-conversational-marketing$ page27846790.html [NC]
+RewriteRule ^how-to-implement-an-effective-conversational-marketing/$ page27846790.html [NC]
+
+RewriteRule ^conversational-marketing-in-a-digital-marketing-strategy$ page27874803.html [NC]
+RewriteRule ^conversational-marketing-in-a-digital-marketing-strategy/$ page27874803.html [NC]
+
+RewriteRule ^multiple-distribution-channels-for-the-promoter-strategy$ page27902441.html [NC]
+RewriteRule ^multiple-distribution-channels-for-the-promoter-strategy/$ page27902441.html [NC]
+
+RewriteRule ^cybersecurity-and-digital-marketing$ page27928820.html [NC]
+RewriteRule ^cybersecurity-and-digital-marketing/$ page27928820.html [NC]
+
+RewriteRule ^how-to-prevent-cyberattacks-in-our-digital-marketing-strategy$ page27956617.html [NC]
+RewriteRule ^how-to-prevent-cyberattacks-in-our-digital-marketing-strategy/$ page27956617.html [NC]
+
+RewriteRule ^ready-for-the-4th-of-july$ page28035868.html [NC]
+RewriteRule ^ready-for-the-4th-of-july/$ page28035868.html [NC]
+
+RewriteRule ^customizable-templates-for-your-referral-program$ page28067875.html [NC]
+RewriteRule ^customizable-templates-for-your-referral-program/$ page28067875.html [NC]
+
+RewriteRule ^these-are-the-best-strategies-for-the-4th-of-july$ page28093766.html [NC]
+RewriteRule ^these-are-the-best-strategies-for-the-4th-of-july/$ page28093766.html [NC]
+
+RewriteRule ^benefits-implementing-a-referral-marketing-strategy$ page28119905.html [NC]
+RewriteRule ^benefits-implementing-a-referral-marketing-strategy/$ page28119905.html [NC]
+
+RewriteRule ^deep-tech-and-digital-marketing$ page28140885.html [NC]
+RewriteRule ^deep-tech-and-digital-marketing/$ page28140885.html [NC]
+
+RewriteRule ^shoppable-media-the-trend-to-optimize-digital-marketing$ page28197637.html [NC]
+RewriteRule ^shoppable-media-the-trend-to-optimize-digital-marketing/$ page28197637.html [NC]
+
+RewriteRule ^dynamic-solutions-to-ensure-the-growth-of-your-business$ page28225075.html [NC]
+RewriteRule ^dynamic-solutions-to-ensure-the-growth-of-your-business/$ page28225075.html [NC]
+
+RewriteRule ^shoppable-media-tips-to-use-these-tools$ page28259300.html [NC]
+RewriteRule ^shoppable-media-tips-to-use-these-tools/$ page28259300.html [NC]
+
+RewriteRule ^how-to-grow-a-business-using-affiliate-marketing$ page28276719.html [NC]
+RewriteRule ^how-to-grow-a-business-using-affiliate-marketing/$ page28276719.html [NC]
+
+RewriteRule ^internet-of-things-the-trend-revolutionising-marketing$ page28304857.html [NC]
+RewriteRule ^internet-of-things-the-trend-revolutionising-marketing/$ page28304857.html [NC]
+
+RewriteRule ^how-is-a-marketing-strategy-transformed-by-iot$ page28320956.html [NC]
+RewriteRule ^how-is-a-marketing-strategy-transformed-by-iot/$ page28320956.html [NC]
+
+RewriteRule ^benefits-of-using-the-internet-of-things-in-digital-marketing$ page28352064.html [NC]
+RewriteRule ^benefits-of-using-the-internet-of-things-in-digital-marketing/$ page28352064.html [NC]
+
+RewriteRule ^blockchain-a-new-trend-in-digital-marketing$ page28433388.html [NC]
+RewriteRule ^blockchain-a-new-trend-in-digital-marketing/$ page28433388.html [NC]
+
+RewriteRule ^transformations-associated-with-climate-change$ page28581533.html [NC]
+RewriteRule ^transformations-associated-with-climate-change/$ page28581533.html [NC]
+
+RewriteRule ^trends-that-transform-the-current-strategy$ page28607797.html [NC]
+RewriteRule ^trends-that-transform-the-current-strategy/$ page28607797.html [NC]
+
+RewriteRule ^dpa$ page28751578.html [NC]
+RewriteRule ^dpa/$ page28751578.html [NC]
+
+RewriteRule ^advantages-of-using-blockchain-in-a-referral-marketing-strategy$ page28753292.html [NC]
+RewriteRule ^advantages-of-using-blockchain-in-a-referral-marketing-strategy/$ page28753292.html [NC]
+
+RewriteRule ^a-tour-of-our-affiliate-and-referral-programs$ page28778211.html [NC]
+RewriteRule ^a-tour-of-our-affiliate-and-referral-programs/$ page28778211.html [NC]
+
+RewriteRule ^how-to-increase-sales-on-independence-day$ page28801458.html [NC]
+RewriteRule ^how-to-increase-sales-on-independence-day/$ page28801458.html [NC]
+
+RewriteRule ^how-to-link-blockchain-and-digital-marketing$ page28828884.html [NC]
+RewriteRule ^how-to-link-blockchain-and-digital-marketing/$ page28828884.html [NC]
+
+RewriteRule ^10-examples-that-demonstrate-the-value-of-appliying-ai$ page28854250.html [NC]
+RewriteRule ^10-examples-that-demonstrate-the-value-of-appliying-ai/$ page28854250.html [NC]
+
+RewriteRule ^guest-post-referral-marketing-in-the-b2b-space$ page28896482.html [NC]
+RewriteRule ^guest-post-referral-marketing-in-the-b2b-space/$ page28896482.html [NC]
+
+RewriteRule ^deep-learning-to-optimize-digital-marketing$ page28925216.html [NC]
+RewriteRule ^deep-learning-to-optimize-digital-marketing/$ page28925216.html [NC]
+
+RewriteRule ^manage-tags$ page28947401.html [NC]
+RewriteRule ^manage-tags/$ page28947401.html [NC]
+
+RewriteRule ^bonus-conversion-stage-triggers$ page28948812.html [NC]
+RewriteRule ^bonus-conversion-stage-triggers/$ page28948812.html [NC]
+
+RewriteRule ^we-promote-cybersecurity-with-our-fraud-detection-module$ page28949066.html [NC]
+RewriteRule ^we-promote-cybersecurity-with-our-fraud-detection-module/$ page28949066.html [NC]
+
+RewriteRule ^fraud-detention-suite$ page28949088.html [NC]
+RewriteRule ^fraud-detention-suite/$ page28949088.html [NC]
+
+RewriteRule ^machine-learning-predictions-for-a-new-digital-marketing$ page28996607.html [NC]
+RewriteRule ^machine-learning-predictions-for-a-new-digital-marketing/$ page28996607.html [NC]
+
+RewriteRule ^deep-learning-and-machine-learning-in-digital-marketing$ page29018817.html [NC]
+RewriteRule ^deep-learning-and-machine-learning-in-digital-marketing/$ page29018817.html [NC]
+
+RewriteRule ^what-are-affiliations-and-why-are-they-a-successful-marketing-model$ page29056828.html [NC]
+RewriteRule ^what-are-affiliations-and-why-are-they-a-successful-marketing-model/$ page29056828.html [NC]
+
+RewriteRule ^machine-learning-how-does-it-influence-digital-marketing$ page29070415.html [NC]
+RewriteRule ^machine-learning-how-does-it-influence-digital-marketing/$ page29070415.html [NC]
+
+RewriteRule ^what-is-an-affiliate$ page29094467.html [NC]
+RewriteRule ^what-is-an-affiliate/$ page29094467.html [NC]
+
+RewriteRule ^we-detect-digital-fraud-and-protect-your-data$ page29117578.html [NC]
+RewriteRule ^we-detect-digital-fraud-and-protect-your-data/$ page29117578.html [NC]
+
+RewriteRule ^how-to-protect-our-marketing-strategy-against-scams$ page29142432.html [NC]
+RewriteRule ^how-to-protect-our-marketing-strategy-against-scams/$ page29142432.html [NC]
+
+RewriteRule ^emails-sent-to-the-advocates$ page29188060.html [NC]
+RewriteRule ^emails-sent-to-the-advocates/$ page29188060.html [NC]
+
+RewriteRule ^what-are-affiliate-networks$ page29188311.html [NC]
+RewriteRule ^what-are-affiliate-networks/$ page29188311.html [NC]
+
+RewriteRule ^what-is-image-recognition$ page29230433.html [NC]
+RewriteRule ^what-is-image-recognition/$ page29230433.html [NC]
+
+RewriteRule ^how-do-i-categorize-bonuses-based-on-tags$ page29283393.html [NC]
+RewriteRule ^how-do-i-categorize-bonuses-based-on-tags/$ page29283393.html [NC]
+
+RewriteRule ^3-email-templates-to-choose-from$ page29284188.html [NC]
+RewriteRule ^3-email-templates-to-choose-from/$ page29284188.html [NC]
+
+RewriteRule ^what-advantages-does-image-recognition-offer-to-digital-marketing$ page29288601.html [NC]
+RewriteRule ^what-advantages-does-image-recognition-offer-to-digital-marketing/$ page29288601.html [NC]
+
+RewriteRule ^influencer-marketing-software-to-boost-your-brand$ page29331787.html [NC]
+RewriteRule ^influencer-marketing-software-to-boost-your-brand/$ page29331787.html [NC]
+
+RewriteRule ^influencers-and-affiliate-marketing$ page29360913.html [NC]
+RewriteRule ^influencers-and-affiliate-marketing/$ page29360913.html [NC]
+
+RewriteRule ^the-best-strategy-for-b2b-partner-programs$ page29384044.html [NC]
+RewriteRule ^the-best-strategy-for-b2b-partner-programs/$ page29384044.html [NC]
+
+RewriteRule ^5-digital-image-recognition-tools$ page29429014.html [NC]
+RewriteRule ^5-digital-image-recognition-tools/$ page29429014.html [NC]
+
+RewriteRule ^what-is-b2b-marketing$ page29455151.html [NC]
+RewriteRule ^what-is-b2b-marketing/$ page29455151.html [NC]
+
+RewriteRule ^affiliations-and-referrals-for-b2b-marketing$ page29476226.html [NC]
+RewriteRule ^affiliations-and-referrals-for-b2b-marketing/$ page29476226.html [NC]
+
+RewriteRule ^affiliate-and-referral-programs-in-b2b$ page29591166.html [NC]
+RewriteRule ^affiliate-and-referral-programs-in-b2b/$ page29591166.html [NC]
+
+RewriteRule ^how-to-use-virtual-assistants-in-a-digital-marketing-strategy$ page29632623.html [NC]
+RewriteRule ^how-to-use-virtual-assistants-in-a-digital-marketing-strategy/$ page29632623.html [NC]
+
+RewriteRule ^why-promote-a-referral-marketing-program$ page29700893.html [NC]
+RewriteRule ^why-promote-a-referral-marketing-program/$ page29700893.html [NC]
+
+RewriteRule ^what-is-voice-recognition$ page29745999.html [NC]
+RewriteRule ^what-is-voice-recognition/$ page29745999.html [NC]
+
+RewriteRule ^referral-marketing-automation-processes$ page29844752.html [NC]
+RewriteRule ^referral-marketing-automation-processes/$ page29844752.html [NC]
+
+RewriteRule ^best-affiliate-marketing-strategies-for-b2b$ page29918180.html [NC]
+RewriteRule ^best-affiliate-marketing-strategies-for-b2b/$ page29918180.html [NC]
+
+RewriteRule ^what-is-the-user-experience$ page29931893.html [NC]
+RewriteRule ^what-is-the-user-experience/$ page29931893.html [NC]
+
+RewriteRule ^martech-to-optimize-a-digital-marketing-strategy$ page29969743.html [NC]
+RewriteRule ^martech-to-optimize-a-digital-marketing-strategy/$ page29969743.html [NC]
+
+RewriteRule ^5-popular-tools-to-boost-our-martech$ page30062770.html [NC]
+RewriteRule ^5-popular-tools-to-boost-our-martech/$ page30062770.html [NC]
+
+RewriteRule ^5-best-practices-for-the-developmet-of-a-referral-program$ page30275513.html [NC]
+RewriteRule ^5-best-practices-for-the-developmet-of-a-referral-program/$ page30275513.html [NC]
+
+RewriteRule ^what-is-engagement-how-to-generate-it$ page30307361.html [NC]
+RewriteRule ^what-is-engagement-how-to-generate-it/$ page30307361.html [NC]
+
+RewriteRule ^5-advantages-of-implementing-an-employee-referral-program$ page30350892.html [NC]
+RewriteRule ^5-advantages-of-implementing-an-employee-referral-program/$ page30350892.html [NC]
+
+RewriteRule ^install_the_360_referral_program_suite$ http://qa.en.geniusreferrals\.com/install_your_referral_program_on_shopify [R=301,NC]
+
+RewriteRule ^29-tatistics-that-prove-ord-of-mouth-marketing-works$ http://qa.en.geniusreferrals\.com/29-statistics-that-prove-word-of-mouth-marketing-works [R=301,NC]
+
+RewriteRule ^referral-program-software-templates$ http://qa.en.geniusreferrals\.com/referral-program-templates [R=301,NC]
+
+RewriteRule ^standard-referral-program-template-for-your-referral-program-software$ http://qa.en.geniusreferrals\.com/classic-affiliate-website-template [R=301,NC]
+
+RewriteRule ^end-to-end-solutions-for-your-referral-programs$ http://qa.en.geniusreferrals\.com/best-referral-software-solutions-for-every-step-of-the-way [R=301,NC]
+
+RewriteRule ^genius-starling-template$ http://qa.en.geniusreferrals\.com/starling-customer-referral-program-template [R=301,NC]
+
+RewriteRule ^favicon.ico$ https://static.tildacdn.com/tild3361-3536-4065-b263-333230393265/favicon_2.ico [R=302,L]
+
+
+RewriteRule ^ver_lista_precios_complementos$ 21766482.html
+
+RewriteRule ^page21766482.html$ 21766482.html
+
+RewriteRule ^transformaciones-asociadas-al-cambio-climtico$ 28575903.html
+
+RewriteRule ^page28575903.html$ 28575903.html
+
+RewriteRule ^marketing-conversacional-por-que-incluirlo-en-una-estrategia-digitl$ 27816249.html
+
+RewriteRule ^page27816249.html$ 27816249.html
+
+RewriteRule ^deep-tech-y-marketing-digital$ 28068763.html
+
+RewriteRule ^page28068763.html$ 28068763.html
+
+RewriteRule ^como_dejo_que_mis_promotores_gestionen_sus_bonificaciones$ 7931893.html
+
+RewriteRule ^page7931893.html$ 7931893.html
+
+RewriteRule ^beneficios-del-internet-de-las-cosas-en-marketing-digital$ 28302813.html
+
+RewriteRule ^page28302813.html$ 28302813.html
+
+RewriteRule ^editar_campos_de_formulario$ 21182724.html
+
+RewriteRule ^page21182724.html$ 21182724.html
+
+RewriteRule ^instalando_su_programa_de_referidos_en_hubspot$ 19047096.html
+
+RewriteRule ^page19047096.html$ 19047096.html
+
+RewriteRule ^reportes$ 33228867.html
+
+RewriteRule ^page33228867.html$ 33228867.html
+
+RewriteRule ^conociendo-genius-referrals-estrategia-para-programas-de-socios-b2b$ 29379402.html
+
+RewriteRule ^page29379402.html$ 29379402.html
+
+RewriteRule ^como_redireccionar_a_los_miembros_para_una_nueva_pagina$ 19826262.html
+
+RewriteRule ^page19826262.html$ 19826262.html
+
+RewriteRule ^emitir-bonificacion-masiva$ 28847230.html
+
+RewriteRule ^page28847230.html$ 28847230.html
+
+RewriteRule ^marketing-de-realidad-virtual-y-estrategia-de-referidos$ 27510363.html
+
+RewriteRule ^page27510363.html$ 27510363.html
+
+RewriteRule ^que-beneficios-aporta-una-estrategia-de-marketing-de-referidos$ 28065202.html
+
+RewriteRule ^page28065202.html$ 28065202.html
+
+RewriteRule ^tabla-de-clasificacion-de-referencia$ 33228736.html
+
+RewriteRule ^page33228736.html$ 33228736.html
+
+RewriteRule ^como_configurar_un_paquete_de_widgets1$ 7914415.html
+
+RewriteRule ^page7914415.html$ 7914415.html
+
+RewriteRule ^blog$ 29966111.html
+
+RewriteRule ^page29966111.html$ 29966111.html
+
+RewriteRule ^plantilla_captura_de_referidos$ 21184060.html
+
+RewriteRule ^page21184060.html$ 21184060.html
+
+RewriteRule ^como_gestionar_promotores$ 7930908.html
+
+RewriteRule ^page7930908.html$ 7930908.html
+
+RewriteRule ^miembros$ 8751203.html
+
+RewriteRule ^page8751203.html$ 8751203.html
+
+RewriteRule ^como_gestionar_pedidos_de_canje$ 29183241.html
+
+RewriteRule ^page29183241.html$ 29183241.html
+
+RewriteRule ^es_sdks$ 8246503.html
+
+RewriteRule ^page8246503.html$ 8246503.html
+
+RewriteRule ^hacer-crecer-un-negocio-con-marketing-de-afiliados$ 28201078.html
+
+RewriteRule ^page28201078.html$ 28201078.html
+
+RewriteRule ^editar-el-mensaje-de-correo-electronico-predeterminado$ 29189714.html
+
+RewriteRule ^page29189714.html$ 29189714.html
+
+RewriteRule ^mejores-estrategias-de-marketing-en-saludo-al-4-de-julio$ 27979692.html
+
+RewriteRule ^page27979692.html$ 27979692.html
+
+RewriteRule ^como_configurar_niveles_en_su_campaa_a_su_programa_de_referido$ 21205134.html
+
+RewriteRule ^page21205134.html$ 21205134.html
+
+RewriteRule ^claudia-rodriguez$ 31090187.html
+
+RewriteRule ^page31090187.html$ 31090187.html
+
+RewriteRule ^programa_de_mercadeo_de_referidos$ 8246542.html
+
+RewriteRule ^page8246542.html$ 8246542.html
+
+RewriteRule ^como_gestionar_dominios_y_urls$ 20350054.html
+
+RewriteRule ^page20350054.html$ 20350054.html
+
+RewriteRule ^instalando_su_programa_de_referidos_en_shopify$ 7873778.html
+
+RewriteRule ^page7873778.html$ 7873778.html
+
+RewriteRule ^donde-encuentro-el-enlace-de-referencia-de-un-promotor$ 35240281.html
+
+RewriteRule ^page35240281.html$ 35240281.html
+
+RewriteRule ^preparados-para-el-4-de-julio-significacion-en-marketing$ 27956877.html
+
+RewriteRule ^page27956877.html$ 27956877.html
+
+RewriteRule ^como_dar_bonos_a_un_promotor$ 7931874.html
+
+RewriteRule ^page7931874.html$ 7931874.html
+
+RewriteRule ^instalando_su_programa_de_referidos_en_drupal$ 7863041.html
+
+RewriteRule ^page7863041.html$ 7863041.html
+
+RewriteRule ^autenticacion$ 8246531.html
+
+RewriteRule ^page8246531.html$ 8246531.html
+
+RewriteRule ^api_restful$ 8246515.html
+
+RewriteRule ^page8246515.html$ 8246515.html
+
+RewriteRule ^procesamiento-de-lenguaje-natural-en-una-estrategia-de-marketing$ 27736689.html
+
+RewriteRule ^page27736689.html$ 27736689.html
+
+RewriteRule ^webhooks$ 25858861.html
+
+RewriteRule ^page25858861.html$ 25858861.html
+
+RewriteRule ^que-es-la-experiencia-de-usuario$ 29768948.html
+
+RewriteRule ^page29768948.html$ 29768948.html
+
+RewriteRule ^que-es-engagement-como-generarlo$ 30194830.html
+
+RewriteRule ^page30194830.html$ 30194830.html
+
+RewriteRule ^preguntas_frecuentes$ 21630236.html
+
+RewriteRule ^page21630236.html$ 21630236.html
+
+RewriteRule ^como_pausar_mi_cuenta$ 21748094.html
+
+RewriteRule ^page21748094.html$ 21748094.html
+
+RewriteRule ^codigo_de_descuento_personal$ 17803095.html
+
+RewriteRule ^page17803095.html$ 17803095.html
+
+RewriteRule ^como_configurar_nuevos_niveles_para_mi_programa_de_referido$ 21205675.html
+
+RewriteRule ^page21205675.html$ 21205675.html
+
+RewriteRule ^convertir-una-referencia-en-un-promotor$ 28995284.html
+
+RewriteRule ^page28995284.html$ 28995284.html
+
+RewriteRule ^conecta_tu_programa_de_refererido_con_google_analytics$ 16714316.html
+
+RewriteRule ^page16714316.html$ 16714316.html
+
+RewriteRule ^reembolso-de-mi-cuenta-de-deposito$ 28994989.html
+
+RewriteRule ^page28994989.html$ 28994989.html
+
+RewriteRule ^instalando_su_programa_de_referidos_en_3dcart$ 16098515.html
+
+RewriteRule ^page16098515.html$ 16098515.html
+
+RewriteRule ^como_conecto_a_un_promotor_con_un_referido$ 23981670.html
+
+RewriteRule ^page23981670.html$ 23981670.html
+
+RewriteRule ^como-asigno-un-promotor-a-una-campana$ 22858586.html
+
+RewriteRule ^page22858586.html$ 22858586.html
+
+RewriteRule ^deep-learning-y-machine-learning-en-marketing-digital$ 28971266.html
+
+RewriteRule ^page28971266.html$ 28971266.html
+
+RewriteRule ^5-herramientas-para-impulsar-el-martech$ 29965722.html
+
+RewriteRule ^page29965722.html$ 29965722.html
+
+RewriteRule ^como_configurar_los_pagos_con_cuenta_de_credito$ 19381789.html
+
+RewriteRule ^page19381789.html$ 19381789.html
+
+RewriteRule ^5-herramientas-digitales-de-reconocimiento-de-imagenes$ 29329566.html
+
+RewriteRule ^page29329566.html$ 29329566.html
+
+RewriteRule ^que-es-el-marketing-b2b-principios-basicos$ 29404300.html
+
+RewriteRule ^page29404300.html$ 29404300.html
+
+RewriteRule ^como-me-notifican-de-nuevos-promotores-y-referidos$ 29197252.html
+
+RewriteRule ^page29197252.html$ 29197252.html
+
+RewriteRule ^como-descargo-promotores-en-un-archivo-csv$ 34476440.html
+
+RewriteRule ^page34476440.html$ 34476440.html
+
+RewriteRule ^proceso_manual_para_activar_una-bonificacion$ 21766485.html
+
+RewriteRule ^page21766485.html$ 21766485.html
+
+RewriteRule ^configuracion_de_campaas_de_masterizacion$ 21232103.html
+
+RewriteRule ^page21232103.html$ 21232103.html
+
+RewriteRule ^como_simulo_que_un_referido_genera_una_bonificacion$ 23981700.html
+
+RewriteRule ^page23981700.html$ 23981700.html
+
+RewriteRule ^donde_puedo_mi_cambiar_plan$ 21748097.html
+
+RewriteRule ^page21748097.html$ 21748097.html
+
+RewriteRule ^iconos_en_el_editor$ 21091855.html
+
+RewriteRule ^page21091855.html$ 21091855.html
+
+RewriteRule ^ciberseguridad-y-marketing-digital-proteger-la-estrategia$ 27902002.html
+
+RewriteRule ^page27902002.html$ 27902002.html
+
+RewriteRule ^instalando_su_programa_de_referidos_en_joomla$ 7862770.html
+
+RewriteRule ^page7862770.html$ 7862770.html
+
+RewriteRule ^como_usar_la_seccion_auditoras$ 7931547.html
+
+RewriteRule ^page7931547.html$ 7931547.html
+
+RewriteRule ^como-establecer-fuentes-de-pagina$ 25743201.html
+
+RewriteRule ^page25743201.html$ 25743201.html
+
+RewriteRule ^donde_puedo_cambiar_metodo_de_pago$ 21748099.html
+
+RewriteRule ^page21748099.html$ 21748099.html
+
+RewriteRule ^influencers-y-marketing-de-afiliados$ 29300739.html
+
+RewriteRule ^page29300739.html$ 29300739.html
+
+RewriteRule ^como-evito-que-mis-correos-electronicos-vayan-a-spam$ 42747279.html
+
+RewriteRule ^page42747279.html$ 42747279.html
+
+RewriteRule ^como_implementar_paginas_para_compartir_en_mi_aplicacion$ 7931779.html
+
+RewriteRule ^page7931779.html$ 7931779.html
+
+RewriteRule ^gestion_de_bonos$ 28658324.html
+
+RewriteRule ^page28658324.html$ 28658324.html
+
+RewriteRule ^acceso-con-un-solo-clic$ 29021380.html
+
+RewriteRule ^page29021380.html$ 29021380.html
+
+RewriteRule ^limite_de_pago_anuall$ 31455683.html
+
+RewriteRule ^page31455683.html$ 31455683.html
+
+RewriteRule ^tendencias-que-transforman-la-estrategia-actual$ 28603058.html
+
+RewriteRule ^page28603058.html$ 28603058.html
+
+RewriteRule ^conociendo-genius-referrals-modulo-de-deteccion-de-fraude$ 28943180.html
+
+RewriteRule ^page28943180.html$ 28943180.html
+
+RewriteRule ^plantilla_blog$ 20269441.html
+
+RewriteRule ^page20269441.html$ 20269441.html
+
+RewriteRule ^conociendo-genius-referrals-plantillas-personalizables$ 28034087.html
+
+RewriteRule ^page28034087.html$ 28034087.html
+
+RewriteRule ^metodo_de_integracion_simple$ 8181189.html
+
+RewriteRule ^page8181189.html$ 8181189.html
+
+RewriteRule ^como_crear_nuevos_programas_campaas$ 21508783.html
+
+RewriteRule ^page21508783.html$ 21508783.html
+
+RewriteRule ^conociendo-genius-referrals-un-recorrido-por-nuestros-programas-de-afiliacion$ 28332730.html
+
+RewriteRule ^page28332730.html$ 28332730.html
+
+RewriteRule ^conecta_tu_programa_de_refererido_con_las_apps_que_amas_via_zapier$ 12335110.html
+
+RewriteRule ^page12335110.html$ 12335110.html
+
+RewriteRule ^instalando_su_programa_de_referidos_en_ecwid$ 16404689.html
+
+RewriteRule ^page16404689.html$ 16404689.html
+
+RewriteRule ^como_capturar_nuevas_referencias_en_mi_app$ 7796319.html
+
+RewriteRule ^page7796319.html$ 7796319.html
+
+RewriteRule ^instalando_su_programa_de_referidos_en_webflow$ 18452873.html
+
+RewriteRule ^page18452873.html$ 18452873.html
+
+RewriteRule ^metodos_de_instalacion_para_su_programa_de_referidos$ 18422811.html
+
+RewriteRule ^page18422811.html$ 18422811.html
+
+RewriteRule ^metodos_de_pago$ 18657978.html
+
+RewriteRule ^page18657978.html$ 18657978.html
+
+RewriteRule ^cmo-prevenir-ciberataques-en-nuestra-estrategia-de-marketing-digital$ 27928241.html
+
+RewriteRule ^page27928241.html$ 27928241.html
+
+RewriteRule ^como_usar_la_seccion_auditoria$ 30145427.html
+
+RewriteRule ^page30145427.html$ 30145427.html
+
+RewriteRule ^configuracion_de_campaas_de_masterizacion1$ 8182213.html
+
+RewriteRule ^page8182213.html$ 8182213.html
+
+RewriteRule ^como_puedo_restablecer_mi_contrasena$ 21748752.html
+
+RewriteRule ^page21748752.html$ 21748752.html
+
+RewriteRule ^cmo-proteger-nuestra-estrategia-de-marketing-ante-fraudes$ 29116537.html
+
+RewriteRule ^page29116537.html$ 29116537.html
+
+RewriteRule ^martech-7-formas-de-aplicar-tecnologia-al-marketing$ 29915918.html
+
+RewriteRule ^page29915918.html$ 29915918.html
+
+RewriteRule ^instalando_su_programa_de_referidos_en_wordpress1$ 7860529.html
+
+RewriteRule ^page7860529.html$ 7860529.html
+
+RewriteRule ^como-cambio-el-estado-de-un-bono$ 35240279.html
+
+RewriteRule ^page35240279.html$ 35240279.html
+
+RewriteRule ^pagos_con_paypal$ 24473144.html
+
+RewriteRule ^page24473144.html$ 24473144.html
+
+RewriteRule ^como_agregar_reglas_adicionales_a_una_campaa$ 21206608.html
+
+RewriteRule ^page21206608.html$ 21206608.html
+
+RewriteRule ^genius-referencias-soporta-otros-lenguajes$ 34475478.html
+
+RewriteRule ^page34475478.html$ 34475478.html
+
+RewriteRule ^scripts-de-instalacion$ 29431304.html
+
+RewriteRule ^page29431304.html$ 29431304.html
+
+RewriteRule ^cmo-aplicar-la-inteligencia-aumentada-al-marketing$ 27646679.html
+
+RewriteRule ^page27646679.html$ 27646679.html
+
+RewriteRule ^instalando_su_programa_de_referidos_en_prestashop$ 16310024.html
+
+RewriteRule ^page16310024.html$ 16310024.html
+
+RewriteRule ^como_enviar_el_referente_directamente_en_el_metodo_processcustomer$ 8181491.html
+
+RewriteRule ^page8181491.html$ 8181491.html
+
+RewriteRule ^conociendo-genius-referrals-vebtajas-de-un-programa-de-referidos-para-empleados$ 30272464.html
+
+RewriteRule ^page30272464.html$ 30272464.html
+
+RewriteRule ^como_usar_la_seccion_de_bonificaciones$ 7931465.html
+
+RewriteRule ^page7931465.html$ 7931465.html
+
+RewriteRule ^como_importar_sus_clientes_en_nuestra_plataforma1$ 7931418.html
+
+RewriteRule ^page7931418.html$ 7931418.html
+
+RewriteRule ^qu-distingue-al-marketing-de-realidad-virtual-3-ejemplos-de-estrategias$ 27602179.html
+
+RewriteRule ^page27602179.html$ 27602179.html
+
+RewriteRule ^10-mejores-practicas-para-lanzar$ 20272240.html
+
+RewriteRule ^page20272240.html$ 20272240.html
+
+RewriteRule ^referidos$ 41492470.html
+
+RewriteRule ^page41492470.html$ 41492470.html
+
+RewriteRule ^transferir_bonos$ 11769846.html
+
+RewriteRule ^page11769846.html$ 11769846.html
+
+RewriteRule ^cmo-emplear-asistentes-virtuales-en-marketing-digital$ 29451291.html
+
+RewriteRule ^page29451291.html$ 29451291.html
+
+RewriteRule ^suite-de-detencion-de-fraude$ 28973687.html
+
+RewriteRule ^page28973687.html$ 28973687.html
+
+RewriteRule ^cmo-unir-blockchain-y-marketing-digital$ 28752476.html
+
+RewriteRule ^page28752476.html$ 28752476.html
+
+RewriteRule ^instalando_su_programa_de_referidos_en_cscart$ 16382957.html
+
+RewriteRule ^page16382957.html$ 16382957.html
+
+RewriteRule ^integrese_con_nuestra_plataforma$ 7303127.html
+
+RewriteRule ^page7303127.html$ 7303127.html
+
+RewriteRule ^cmo-se-transforma-una-estrategia-de-marketing-empleando-internet-de-las-cosas$ 28282389.html
+
+RewriteRule ^page28282389.html$ 28282389.html
+
+RewriteRule ^conociendo-genius-referrals-todas-las-metricas-a-su-alcance$ 27259356.html
+
+RewriteRule ^page27259356.html$ 27259356.html
+
+RewriteRule ^que-son-las-afiliaciones$ 28995753.html
+
+RewriteRule ^page28995753.html$ 28995753.html
+
+RewriteRule ^configurar-pagos-con-tarjetas-de-regalos1$ 16373904.html
+
+RewriteRule ^page16373904.html$ 16373904.html
+
+RewriteRule ^genius-referrals-cumple-con-pci-dss$ 29197147.html
+
+RewriteRule ^page29197147.html$ 29197147.html
+
+RewriteRule ^procesa-referidos-en-masa-para-emitir-bonificaciones$ 28704651.html
+
+RewriteRule ^page28704651.html$ 28704651.html
+
+RewriteRule ^limites-de-bonificacion-manual$ 28966408.html
+
+RewriteRule ^page28966408.html$ 28966408.html
+
+RewriteRule ^configuracion_de_pagina$ 21625956.html
+
+RewriteRule ^page21625956.html$ 21625956.html
+
+RewriteRule ^reconocimiento-de-voz-y-voice-marketing$ 29471921.html
+
+RewriteRule ^page29471921.html$ 29471921.html
+
+RewriteRule ^transferencia-bancaria$ 34577071.html
+
+RewriteRule ^page34577071.html$ 34577071.html
+
+RewriteRule ^proceso_de_aprobacion_de_bonificacion$ 19955339.html
+
+RewriteRule ^page19955339.html$ 19955339.html
+
+RewriteRule ^que-son-las-redes-de-afiliacion$ 29138604.html
+
+RewriteRule ^page29138604.html$ 29138604.html
+
+RewriteRule ^como_puedo_emitir_bono_manual$ 21766484.html
+
+RewriteRule ^page21766484.html$ 21766484.html
+
+RewriteRule ^que-es-el-reconocimiento-de-imgenes-impacto-en-marketing$ 29164231.html
+
+RewriteRule ^page29164231.html$ 29164231.html
+
+RewriteRule ^como_eliminar-pie-de-pagina$ 29309285.html
+
+RewriteRule ^page29309285.html$ 29309285.html
+
+RewriteRule ^actualizaciones-y-cambios-en-genius-referrals$ 25305878.html
+
+RewriteRule ^page25305878.html$ 25305878.html
+
+RewriteRule ^como_dar_bonificaciones_a_sus_promotores$ 7931707.html
+
+RewriteRule ^page7931707.html$ 7931707.html
+
+RewriteRule ^traducciones-de-los-correos-electronicos-y-notificaciones$ 27176089.html
+
+RewriteRule ^page27176089.html$ 27176089.html
+
+RewriteRule ^verificacion-de-la-direccion-de-correo-electrnico$ 28964101.html
+
+RewriteRule ^page28964101.html$ 28964101.html
+
+RewriteRule ^5-mejore-practicas-para-la-mensajeria$ 20275125.html
+
+RewriteRule ^page20275125.html$ 20275125.html
+
+RewriteRule ^machine-learning-predicciones-para-marketing-digital$ 28876782.html
+
+RewriteRule ^page28876782.html$ 28876782.html
+
+RewriteRule ^instalando_su_programa_de_referidos_en_magento$ 16405134.html
+
+RewriteRule ^page16405134.html$ 16405134.html
+
+RewriteRule ^codigos-utm$ 32280476.html
+
+RewriteRule ^page32280476.html$ 32280476.html
+
+RewriteRule ^como_configurar_su_programa_de_referidos_con_multiples_monedas$ 19199787.html
+
+RewriteRule ^page19199787.html$ 19199787.html
+
+RewriteRule ^como_configurar_los_pagos_con_productos$ 18716611.html
+
+RewriteRule ^page18716611.html$ 18716611.html
+
+RewriteRule ^conociendo-genius-referrals-software-de-marketing-de-influencer$ 29234785.html
+
+RewriteRule ^page29234785.html$ 29234785.html
+
+RewriteRule ^portal-de-asociados$ 41492471.html
+
+RewriteRule ^page41492471.html$ 41492471.html
+
+RewriteRule ^como_configurar_un_paquete_de_widgets$ 21608663.html
+
+RewriteRule ^page21608663.html$ 21608663.html
+
+RewriteRule ^conociendo-genius-referrals-soluciones-dinmicas-para-negocios$ 28199524.html
+
+RewriteRule ^page28199524.html$ 28199524.html
+
+RewriteRule ^socios$ 41492472.html
+
+RewriteRule ^page41492472.html$ 41492472.html
+
+RewriteRule ^metodo-de-integracion-avanzado$ 7256076.html
+
+RewriteRule ^page7256076.html$ 7256076.html
+
+RewriteRule ^shoppable-media-la-tendencia-para-optimizar-marketing$ 28119371.html
+
+RewriteRule ^page28119371.html$ 28119371.html
+
+RewriteRule ^configurar-pagos-con-tarjetas-de-regalos$ 26484949.html
+
+RewriteRule ^page26484949.html$ 26484949.html
+
+RewriteRule ^como_capturar_referencias_para_incrementar_su_lista_de_suscriptores$ 18108478.html
+
+RewriteRule ^page18108478.html$ 18108478.html
+
+RewriteRule ^como_funciona_el_editor$ 25743199.html
+
+RewriteRule ^page25743199.html$ 25743199.html
+
+RewriteRule ^conociendo-genius-referrals-servicio-superior-clientes-satisfechos$ 27706824.html
+
+RewriteRule ^page27706824.html$ 27706824.html
+
+RewriteRule ^traducir-las-paginas-de-su-programa-de-referidos$ 19170111.html
+
+RewriteRule ^page19170111.html$ 19170111.html
+
+RewriteRule ^instalando_su_programa_de_referidos_en_bigcommerce$ 16206303.html
+
+RewriteRule ^page16206303.html$ 16206303.html
+
+RewriteRule ^como-puedo-editar-la-configuracion-de-un-metodo-de-pago$ 36349610.html
+
+RewriteRule ^page36349610.html$ 36349610.html
+
+RewriteRule ^formularios_varias_columnas$ 21697898.html
+
+RewriteRule ^page21697898.html$ 21697898.html
+
+RewriteRule ^instalando_su_programa_de_referidos_en_squarespace$ 16207784.html
+
+RewriteRule ^page16207784.html$ 16207784.html
+
+RewriteRule ^resumen-de-la-seccion-analitica$ 33224638.html
+
+RewriteRule ^page33224638.html$ 33224638.html
+
+RewriteRule ^como-elimino-un-bono$ 35240814.html
+
+RewriteRule ^page35240814.html$ 35240814.html
+
+RewriteRule ^5-mejores-prcticas-para-un-programa-de-referidos$ 30060293.html
+
+RewriteRule ^page30060293.html$ 30060293.html
+
+RewriteRule ^conociendo-genius-programas-para-lograr-el-crecimiento-en-el-contexto-b2b$ 29574218.html
+
+RewriteRule ^page29574218.html$ 29574218.html
+
+RewriteRule ^cual-es-mi-limite-de-promotores$ 27341520.html
+
+RewriteRule ^page27341520.html$ 27341520.html
+
+RewriteRule ^mejores-estrategias-de-marketing-de-afiliados-para-b2b$ 29598059.html
+
+RewriteRule ^page29598059.html$ 29598059.html
+
+RewriteRule ^plantilla_vinculos_para_compartir$ 21185081.html
+
+RewriteRule ^page21185081.html$ 21185081.html
+
+RewriteRule ^como_chequear_si_el_referente_puede_recibir_un_bono$ 7931081.html
+
+RewriteRule ^page7931081.html$ 7931081.html
+
+RewriteRule ^escenarios_de_estudio_para_su_programa_de_referidos$ 19689782.html
+
+RewriteRule ^page19689782.html$ 19689782.html
+
+RewriteRule ^sistemas-conversacionales-avanzados-y-marketing$ 27762839.html
+
+RewriteRule ^page27762839.html$ 27762839.html
+
+RewriteRule ^publicacin-de-invitado-marketing-de-referencia-en-espacio-b2b$ 28896062.html
+
+RewriteRule ^page28896062.html$ 28896062.html
