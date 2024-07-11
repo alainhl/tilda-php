@@ -1600,3 +1600,7 @@ RewriteRule ^page45613117.html$ 45613117.html
 RewriteRule ^como_crear_nuevos_programas_campaas1$ 45613823.html
 
 RewriteRule ^page45613823.html$ 45613823.html
+
+RewriteRule ^configuracion_de_campaas_de_masterizacion$ 45614885.html
+
+RewriteRule ^page45614885.html$ 45614885.html
