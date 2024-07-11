@@ -1612,3 +1612,7 @@ RewriteRule ^page45773491.html$ 45773491.html
 RewriteRule ^aprende_como_configurar_y_integrar_tus_programas_de_referidos$ 44645671.html
 
 RewriteRule ^page44645671.html$ 44645671.html
+
+RewriteRule ^aprende_como_hacer_cosas_en_nuestra_plataforma$ 45613827.html
+
+RewriteRule ^page45613827.html$ 45613827.html
