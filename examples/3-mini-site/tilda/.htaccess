@@ -1604,3 +1604,11 @@ RewriteRule ^page45613823.html$ 45613823.html
 RewriteRule ^configuracion_de_campaas_de_masterizacion$ 45614885.html
 
 RewriteRule ^page45614885.html$ 45614885.html
+
+RewriteRule ^header$ 45773491.html
+
+RewriteRule ^page45773491.html$ 45773491.html
+
+RewriteRule ^aprende_como_configurar_y_integrar_tus_programas_de_referidos$ 44645671.html
+
+RewriteRule ^page44645671.html$ 44645671.html
