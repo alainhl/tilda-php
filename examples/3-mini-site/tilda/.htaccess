@@ -1616,3 +1616,7 @@ RewriteRule ^page44645671.html$ 44645671.html
 RewriteRule ^aprende_como_hacer_cosas_en_nuestra_plataforma$ 45613827.html
 
 RewriteRule ^page45613827.html$ 45613827.html
+
+RewriteRule ^proceso_de_aprobacion_de_bonificacion$ 45627907.html
+
+RewriteRule ^page45627907.html$ 45627907.html
