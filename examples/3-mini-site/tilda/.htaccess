@@ -1,7 +1,7 @@
-ErrorDocument 403 /page8704262.html
-ErrorDocument 404 /page8704262.html
+ErrorDocument 403 /page45773513.html
+ErrorDocument 404 /page45773513.html
 
-DirectoryIndex page8112075.html
+DirectoryIndex page44645671.html
 
 RewriteEngine On
 
