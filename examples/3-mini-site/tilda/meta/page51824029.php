@@ -1,9 +1,9 @@
 <?php
 return array(
     'id' => '51824029',
-    'title' => "Copy of Request a Demo | Genius Referrals",
-    'alias' => 'new-demo-page',
-    'descr' => "Schedule your personalized demo and learn how our software can help you grow your business with referrals.",
+    'title' => "Request a Demo | Genius Referrals - Personalized Demos &amp; Free Consultations",
+    'alias' => 'demo',
+    'descr' => "Discover how Genius Referrals can help grow your business. Request a personalized demo and get a free consultation to explore our powerful referral program solutions.",
     'img' => '',
     'featureimg' => '',
     'socnetimg' => '',
