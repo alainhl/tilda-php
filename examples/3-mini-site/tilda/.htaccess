@@ -1580,3 +1580,7 @@ RewriteRule ^page27762839.html$ 27762839.html
 RewriteRule ^publicacin-de-invitado-marketing-de-referencia-en-espacio-b2b$ 28896062.html
 
 RewriteRule ^page28896062.html$ 28896062.html
+
+RewriteRule ^como_funciona$ 49671063.html
+
+RewriteRule ^page49671063.html$ 49671063.html
