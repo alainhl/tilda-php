@@ -1620,3 +1620,7 @@ RewriteRule ^page45613827.html$ 45613827.html
 RewriteRule ^proceso_de_aprobacion_de_bonificacion$ 45627907.html
 
 RewriteRule ^page45627907.html$ 45627907.html
+
+RewriteRule ^configurar-dominio-envio-email$ 45617313.html
+
+RewriteRule ^page45617313.html$ 45617313.html
