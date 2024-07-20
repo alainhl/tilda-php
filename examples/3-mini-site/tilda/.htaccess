@@ -1584,3 +1584,11 @@ RewriteRule ^page28896062.html$ 28896062.html
 RewriteRule ^where-can-i-find-the-results-from-the-referral-capture-form-submissions$ 51566553.html
 
 RewriteRule ^page51566553.html$ 51566553.html
+
+RewriteRule ^email-sending-domain-settings$ 43202204.html
+
+RewriteRule ^page43202204.html$ 43202204.html
+
+RewriteRule ^what-is-a-vanity-url$ 43269947.html
+
+RewriteRule ^page43269947.html$ 43269947.html
