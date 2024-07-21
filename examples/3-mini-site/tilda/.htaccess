@@ -1592,3 +1592,11 @@ RewriteRule ^page43202204.html$ 43202204.html
 RewriteRule ^what-is-a-vanity-url$ 43269947.html
 
 RewriteRule ^page43269947.html$ 43269947.html
+
+RewriteRule ^how-does-the-tango-gift-card-work-and-what-does-it-look-like-for-the-recipient$ 43269943.html
+
+RewriteRule ^page43269943.html$ 43269943.html
+
+RewriteRule ^how-do-i-manually-process-a-referral-to-issue-a-bonus$ 43269913.html
+
+RewriteRule ^page43269913.html$ 43269913.html
