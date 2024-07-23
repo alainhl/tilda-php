@@ -1624,3 +1624,47 @@ RewriteRule ^page45627907.html$ 45627907.html
 RewriteRule ^configurar-dominio-envio-email$ 45617313.html
 
 RewriteRule ^page45617313.html$ 45617313.html
+
+RewriteRule ^proceso_manual_para_activar_una-bonificacion$ 45628881.html
+
+RewriteRule ^page45628881.html$ 45628881.html
+
+RewriteRule ^que-es-una-url-personalizada$ 45628929.html
+
+RewriteRule ^page45628929.html$ 45628929.html
+
+RewriteRule ^preguntas_frecuentes$ 45628861.html
+
+RewriteRule ^page45628861.html$ 45628861.html
+
+RewriteRule ^como_puedo_restablecer_mi_contrasena$ 45628875.html
+
+RewriteRule ^page45628875.html$ 45628875.html
+
+RewriteRule ^donde-puedo-ver-una-lista-de-todos-mis-promotores$ 45628895.html
+
+RewriteRule ^page45628895.html$ 45628895.html
+
+RewriteRule ^faq/como-cambiar-imagen-compartida-redes-sociales$ 45628917.html
+
+RewriteRule ^page45628917.html$ 45628917.html
+
+RewriteRule ^como_configurar_un_paquete_de_widgets$ 45615369.html
+
+RewriteRule ^page45615369.html$ 45615369.html
+
+RewriteRule ^como_gestionar_dominios_y_urls$ 45617311.html
+
+RewriteRule ^page45617311.html$ 45617311.html
+
+RewriteRule ^instalando_su_programa_de_referidos_en_hubspot$ 45618025.html
+
+RewriteRule ^page45618025.html$ 45618025.html
+
+RewriteRule ^instalando_su_programa_de_referidos_en_webflow$ 45618021.html
+
+RewriteRule ^page45618021.html$ 45618021.html
+
+RewriteRule ^sdk-integracion-genius-referrals$ 52288837.html
+
+RewriteRule ^page52288837.html$ 52288837.html
