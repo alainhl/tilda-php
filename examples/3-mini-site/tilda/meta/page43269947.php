@@ -1,9 +1,9 @@
 <?php
 return array(
     'id' => '43269947',
-    'title' => "What is a Vanity URL? | Genius Referrals",
+    'title' => "What is a Vanity URL? | Custom Referral Links Explained",
     'alias' => 'what-is-a-vanity-url',
-    'descr' => "A vanity URL is a unique and custom URL that is created specifically for a program participant to share with their contacts. The URL is usually shorter and more memorable than the standard referral program URL and often contains the participant's name or a specific identifier.",
+    'descr' => "Discover the benefits of vanity URLs in referral programs. Learn how custom, memorable URLs help track and boost participants' referral efforts. Find out more now!",
     'img' => '',
     'featureimg' => '',
     'socnetimg' => '',

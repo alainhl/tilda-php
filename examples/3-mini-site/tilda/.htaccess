@@ -1600,3 +1600,31 @@ RewriteRule ^page43269943.html$ 43269943.html
 RewriteRule ^how-do-i-manually-process-a-referral-to-issue-a-bonus$ 43269913.html
 
 RewriteRule ^page43269913.html$ 43269913.html
+
+RewriteRule ^resources$ 43130913.html
+
+RewriteRule ^page43130913.html$ 43130913.html
+
+RewriteRule ^how-can-i-edit-the-payment-method-configuration$ 43269946.html
+
+RewriteRule ^page43269946.html$ 43269946.html
+
+RewriteRule ^faq/how-to-change-social-media-share-image$ 43269934.html
+
+RewriteRule ^page43269934.html$ 43269934.html
+
+RewriteRule ^header$ 43070531.html
+
+RewriteRule ^page43070531.html$ 43070531.html
+
+RewriteRule ^primary-domain-settings$ 43202205.html
+
+RewriteRule ^page43202205.html$ 43202205.html
+
+RewriteRule ^custom-domains-settings$ 43202207.html
+
+RewriteRule ^page43202207.html$ 43202207.html
+
+RewriteRule ^vanity-url-settings$ 43202208.html
+
+RewriteRule ^page43202208.html$ 43202208.html
