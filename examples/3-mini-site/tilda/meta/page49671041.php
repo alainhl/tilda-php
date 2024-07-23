@@ -1,9 +1,9 @@
 <?php
 return array(
     'id' => '49671041',
-    'title' => "Unlock the Power of Referrals with Genius Referrals - The Ultimate Referral Program Software",
+    'title' => "Desbloquea el Poder de las Referencias con Genius Referrals - El Software Ideal para Programas de Referencias",
     'alias' => '',
-    'descr' => "Looking to supercharge your growth and boost your sales? Genius Referrals is the ultimate referral program software that helps you harness the power of word-of-mouth marketing. Our cutting-edge technology streamlines the referral process, engages your customers, and maximizes your ROI. Discover how Genius Referrals can transform your business today.",
+    'descr' => "¿Buscas potenciar tu crecimiento y aumentar tus ventas? Genius Referrals es el software ideal para programas de referencias que te ayuda a aprovechar el poder del marketing de boca a boca. Nuestra tecnología avanzada agiliza el proceso de referencias, involucra a tus clientes y maximiza tu retorno de inversión. Descubre cómo Genius Referrals puede transformar tu negocio hoy mismo.",
     'img' => 'https://static.tildacdn.com/tild3962-6663-4166-b330-653338353562/banner.jpg',
     'featureimg' => '',
     'socnetimg' => '',

@@ -1,9 +1,9 @@
 <?php
 return array(
     'id' => '52248899',
-    'title' => "Copy of Contact Us | Genius Referrals - Get Support &amp; Connect with Our Team",
-    'alias' => '',
-    'descr' => "Have questions or need assistance? Visit our Contact Us page to connect with the Genius Referrals team, access our Resource Hub, and find support. We're here to help you succeed.",
+    'title' => "Contáctanos | Genius Referrals - Obtén Soporte y Conéctate con Nuestro Equipo",
+    'alias' => 'contacto',
+    'descr' => "¿Tienes preguntas o necesitas asistencia? Visita nuestra página de Contáctanos para conectarte con el equipo de Genius Referrals, acceder a nuestro Centro de Recursos y encontrar soporte. Estamos aquí para ayudarte a tener éxito.",
     'img' => '',
     'featureimg' => '',
     'socnetimg' => '',

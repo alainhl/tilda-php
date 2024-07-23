@@ -1,12 +1,12 @@
 <?php
 return array(
     'id' => '52248895',
-    'title' => "Copy of Request a Demo | Genius Referrals - Personalized Demos &amp; Free Consultations",
-    'alias' => '',
-    'descr' => "Discover how Genius Referrals can help grow your business. Request a personalized demo and get a free consultation to explore our powerful referral program solutions.",
+    'title' => "Solicita una Demo | Genius Referrals - Demos Personalizadas y Consultas Gratis",
+    'alias' => 'demo',
+    'descr' => "Descubre cómo Genius Referrals puede ayudar a hacer crecer tu negocio. Solicita una demo personalizada y obtén una consulta gratis para explorar nuestras poderosas soluciones de programas de referidos.",
     'img' => '',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>
