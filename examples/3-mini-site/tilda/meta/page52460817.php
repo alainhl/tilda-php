@@ -1,8 +1,8 @@
 <?php
 return array(
-    'id' => '45773491',
-    'title' => "Header",
-    'alias' => 'header',
+    'id' => '52460817',
+    'title' => "",
+    'alias' => '',
     'descr' => "",
     'img' => '',
     'featureimg' => '',
