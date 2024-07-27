@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3961-6638-4563-b738-623936343532/creative-christians-.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

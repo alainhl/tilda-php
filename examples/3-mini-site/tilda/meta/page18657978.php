@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3235-6330-4434-b862-633437363630/metodos_badge.png',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

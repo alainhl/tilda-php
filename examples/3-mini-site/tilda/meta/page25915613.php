@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3461-6364-4530-b961-646236306439/afif-kusuma-CT7IWRM7.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

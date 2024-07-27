@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild6438-3466-4738-b036-623630643166/brett-jordan-LPZy4da.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

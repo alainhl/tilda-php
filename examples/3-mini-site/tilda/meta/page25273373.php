@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3537-3731-4261-a661-623635326564/timothy-hales-bennet.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

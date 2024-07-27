@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3465-6634-4335-b439-663931643964/monedas_badge.png',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

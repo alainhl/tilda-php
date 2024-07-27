@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild6339-3763-4536-b666-623864623862/yogas-design-J6Qn9sE.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

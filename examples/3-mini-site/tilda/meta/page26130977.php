@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild6635-3561-4238-a234-653635356230/4AMBASSADORMariSmith.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

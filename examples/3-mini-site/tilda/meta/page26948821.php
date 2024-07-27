@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3566-3366-4335-a434-663131363934/ipad-tablet-technolo.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

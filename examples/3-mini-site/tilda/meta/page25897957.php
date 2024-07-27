@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild6164-3938-4262-a465-343131643835/christin-hume-Hcfwew.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

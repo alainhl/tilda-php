@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3631-3436-4237-b435-633134316636/social-media-g339fef.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

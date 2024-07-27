@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3365-6462-4236-b336-653535396539/malte-helmhold-mQmuv.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

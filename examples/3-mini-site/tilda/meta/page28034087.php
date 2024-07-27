@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3237-3765-4666-b637-386536336463/portada_GR_1.png',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

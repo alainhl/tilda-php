@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3261-3734-4033-b163-646233346338/smart-home-3574545_1.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>
