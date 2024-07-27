@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild6331-3237-4339-b034-376637346436/kobu-agency-7okkFhxr.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

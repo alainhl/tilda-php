@@ -7,6 +7,6 @@ return array(
     'img' => '',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

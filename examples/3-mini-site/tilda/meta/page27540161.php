@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3535-3337-4433-b837-666432376632/pexels-thisisenginee.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

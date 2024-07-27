@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild6632-3964-4265-b964-303836346633/monitor-g2ba9bfced_1.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

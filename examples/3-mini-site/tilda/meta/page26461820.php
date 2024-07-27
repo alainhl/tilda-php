@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3438-3064-4162-b461-326231393438/icons8-team-yTwXpLO5.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild6366-3830-4230-a330-333630353932/nadine-shaabana-nLvc.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

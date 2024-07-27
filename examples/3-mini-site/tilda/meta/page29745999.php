@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3061-3063-4031-a466-306334663361/voice-control-g0c0e4.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

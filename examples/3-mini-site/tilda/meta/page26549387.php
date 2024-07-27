@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild6436-3164-4333-a664-336230633839/mimi-thian--VHQ0cw2e.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3730-3433-4531-a233-393838366434/pexels-tara-winstead.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

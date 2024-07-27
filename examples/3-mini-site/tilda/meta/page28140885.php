@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3437-3765-4435-b936-383737653435/pexels-christina-mor.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

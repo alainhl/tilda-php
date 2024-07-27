@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3631-3564-4136-b234-363235393338/onur-binay-rvQmTjflc.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

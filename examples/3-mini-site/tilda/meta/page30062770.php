@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3234-3264-4766-b731-363533366536/computer-g0b447ca7a_.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

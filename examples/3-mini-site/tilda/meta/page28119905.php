@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3062-3134-4431-a432-373337653236/marketing-online-g27.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

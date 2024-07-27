@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3637-6330-4138-b231-306662353537/pexels-md-iftekhar-u.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild6532-6236-4931-a539-353365303066/office-woman-hands-o.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild6530-6239-4766-b835-643530353333/ghen-mar-cuano-R6dSB.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

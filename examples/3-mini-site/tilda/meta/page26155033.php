@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3639-6439-4533-b735-346131376131/noah-buscher-x8ZStuk.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

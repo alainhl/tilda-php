@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3164-6630-4332-b331-346465323263/amy-hirschi-JaoVGh5a.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

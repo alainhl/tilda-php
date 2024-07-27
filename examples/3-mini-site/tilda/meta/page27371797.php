@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3435-6434-4761-a133-333536346539/pexels-artem-beliaik.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

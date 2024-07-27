@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3437-3139-4038-a633-653939336563/pexels-scott-webb-53.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

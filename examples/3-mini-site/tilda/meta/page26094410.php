@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3161-3665-4636-b537-303863333464/sara-kurfess-6lcT2kR.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

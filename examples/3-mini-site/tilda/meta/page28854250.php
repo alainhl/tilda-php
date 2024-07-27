@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3530-3339-4132-b566-633362316133/artificial-intellige.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

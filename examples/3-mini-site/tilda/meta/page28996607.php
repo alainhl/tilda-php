@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3337-3034-4437-a664-633062343665/machine-learning-g13.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

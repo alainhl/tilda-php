@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3137-3530-4336-a437-353433366538/nick-morrison-FHnnjk.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

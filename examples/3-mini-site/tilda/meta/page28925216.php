@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3363-6162-4337-b637-383138363630/brain-ge4e58fdfa_640.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

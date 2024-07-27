@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild6232-6635-4561-b139-643163326533/alexa-g86a8b3085_192.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

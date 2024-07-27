@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3530-3863-4564-b334-636366653435/mar-bustos-kvqdDW4yk.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

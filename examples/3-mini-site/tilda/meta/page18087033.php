@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3265-3161-4462-b663-633266646132/janko-ferlic-sfL_QOn.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

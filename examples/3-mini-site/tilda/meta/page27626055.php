@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3435-3732-4531-a437-623834633536/pexels-bradley-hook-.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

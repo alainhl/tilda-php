@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3736-3034-4930-a536-343733326339/metodo20de20pago.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

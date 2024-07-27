@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3330-6461-4534-a433-613237396431/pexels-startup-stock.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

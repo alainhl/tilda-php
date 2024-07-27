@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3431-6632-4331-b439-383963663636/campaign-creators-e6.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

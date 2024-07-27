@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3961-3130-4463-a134-306430633038/windows-w79mIrYKcK4-.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3763-3961-4364-b464-306165343135/internet-of-things-g.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

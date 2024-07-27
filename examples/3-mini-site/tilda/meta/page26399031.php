@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3966-3465-4364-a466-316662376137/glenn-carstens-peter.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

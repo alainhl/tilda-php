@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild6661-3636-4764-b238-343437643939/teamwork-g66ffb6969_.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3439-3938-4436-b263-306235613761/brooke-cagle--uHVRvD.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

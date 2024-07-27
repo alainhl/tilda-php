@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild6538-3936-4634-a630-643439656633/pexels-andrea-piacqu.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3235-3362-4365-b832-666664363236/duncan-kidd-Cju-BkSk.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild6237-3865-4236-a337-343635333333/eyestetix-studio-36z.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

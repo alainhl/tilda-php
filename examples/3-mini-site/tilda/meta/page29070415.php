@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild6535-6431-4930-b230-353335396237/path-digital-tR0jvls.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

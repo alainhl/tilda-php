@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild6463-6261-4833-b966-656461303735/corinne-kutz-tMI2_-r.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

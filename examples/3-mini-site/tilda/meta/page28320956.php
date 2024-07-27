@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3130-6539-4165-b066-373231613032/turn-on-g04cebffef_1.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

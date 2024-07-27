@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3834-6435-4737-a531-616233663533/businessman-gd18208c.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3665-3838-4662-b665-366130326535/kevin-ku-w7ZyuGYNpRQ.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3633-3136-4239-a633-303666376265/pexels-karolina-grab.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

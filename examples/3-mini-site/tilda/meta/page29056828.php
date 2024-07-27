@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3539-3533-4161-b136-613131636231/job-gfa2935e87_1920.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

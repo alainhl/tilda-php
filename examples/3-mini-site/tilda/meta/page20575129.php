@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3539-3737-4535-b430-376433643462/meghan-schiereck-_XF.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

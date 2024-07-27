@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild6162-3530-4565-b039-666661623766/nubelson-fernandes-g.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

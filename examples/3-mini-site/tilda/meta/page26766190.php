@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild6437-3036-4936-a138-616332353266/pexels-thirdman-5961.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

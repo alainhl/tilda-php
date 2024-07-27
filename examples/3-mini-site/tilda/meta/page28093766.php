@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3632-3761-4530-b636-663034363236/usa-gd52ddcca1_1920.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

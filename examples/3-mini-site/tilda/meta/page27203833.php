@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3161-6134-4337-b565-646466333064/pexels-charlotte-may.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

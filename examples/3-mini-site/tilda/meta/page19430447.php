@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3437-3536-4864-a432-353636373531/leon-0K7GgiA8lVE-uns.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

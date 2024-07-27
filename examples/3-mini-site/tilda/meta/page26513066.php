@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild6232-6133-4361-b935-623931316134/luis-villasmil-4V8uM.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

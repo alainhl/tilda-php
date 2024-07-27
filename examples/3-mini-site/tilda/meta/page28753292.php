@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3161-3939-4431-b762-383335356438/blockchain-gbb5d1ad8.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3664-3138-4363-a264-613535336234/christina-wocintechc.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

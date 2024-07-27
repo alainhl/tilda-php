@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3061-3362-4639-a537-613466666166/mobile-phone-g11a7d0.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

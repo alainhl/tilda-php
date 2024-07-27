@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3931-3931-4464-a230-323539656630/bruce-mars-FWVMhUa_w.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

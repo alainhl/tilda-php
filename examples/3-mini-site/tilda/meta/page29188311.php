@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3038-6361-4837-b662-313033366235/cytonn-photography-v.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

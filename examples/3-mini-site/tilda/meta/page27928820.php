@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3634-3262-4139-a139-386462326538/pexels-cottonbro-547.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3139-3766-4934-b432-313765333236/austin-distel-jpHw8n.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

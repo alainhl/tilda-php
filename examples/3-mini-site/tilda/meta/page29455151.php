@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3737-6334-4564-b437-383162353536/sebastian-herrmann-O.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

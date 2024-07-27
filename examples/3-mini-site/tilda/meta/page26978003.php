@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild6635-3261-4537-a563-386639636435/pexels-mikael-blomkv.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

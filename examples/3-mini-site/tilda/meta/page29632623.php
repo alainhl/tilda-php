@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild6161-6633-4239-a530-393937633439/hands-g97a28e95d_192.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

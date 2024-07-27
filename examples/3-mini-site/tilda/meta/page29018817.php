@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3131-3537-4333-b632-323066363634/andy-kelly-0E_vhMVqL.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

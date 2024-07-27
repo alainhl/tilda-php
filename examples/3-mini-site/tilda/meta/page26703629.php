@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3334-3061-4439-a664-636161353062/mateus-campos-felipe.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

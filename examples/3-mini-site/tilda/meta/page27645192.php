@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3139-6139-4666-a363-623862353731/eye-ga66bff604_1920.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

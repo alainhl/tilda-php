@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3532-3133-4761-b862-373131303465/absolutvision-82TpEl.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

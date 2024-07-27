@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild6638-6365-4637-a435-666337366661/magento.png',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

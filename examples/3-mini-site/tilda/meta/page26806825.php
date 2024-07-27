@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3433-6362-4066-b864-376462386430/jeshoots-com--2vD8lI.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

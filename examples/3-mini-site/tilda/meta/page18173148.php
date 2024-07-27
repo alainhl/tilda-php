@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild6434-3064-4263-b338-656463663830/tim-van-der-kuip-CPs.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3838-6632-4461-a534-376539313865/tiktok-5464739_1280.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

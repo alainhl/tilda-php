@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild6164-6166-4363-a463-393166363933/laptop-gafbe91e55_19.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>

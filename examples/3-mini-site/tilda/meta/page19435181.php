@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3661-3334-4931-b165-353338323333/magpie_Mobile.jpg',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>
