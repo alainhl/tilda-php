@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild6630-6163-4666-b534-376563306338/Screen_Shot_2021-09-.png',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>
