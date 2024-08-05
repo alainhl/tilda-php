@@ -7,6 +7,6 @@ return array(
     'img' => 'https://static.tildacdn.com/tild3763-6565-4163-b232-356439663936/presta.png',
     'featureimg' => '',
     'socnetimg' => '',
-    'needsync' => '0'
+    'needsync' => '1'
 );
 ?>
