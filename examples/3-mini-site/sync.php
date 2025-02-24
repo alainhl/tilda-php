@@ -17,8 +17,8 @@
 include '..' . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'classes' . DIRECTORY_SEPARATOR . 'Tilda' . DIRECTORY_SEPARATOR . 'Api.php';
 include '..' . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'classes' . DIRECTORY_SEPARATOR . 'Tilda' . DIRECTORY_SEPARATOR . 'LocalProject.php';
 
-const TILDA_PUBLIC_KEY = 'x6i6nirjatlmk171cnzs';
-const TILDA_SECRET_KEY = 'cacf61136451915f7113';
+const TILDA_PUBLIC_KEY = 'jcglbyjt9agzyadhv2e1';
+const TILDA_SECRET_KEY = 'ec18a22c94bf0b0d080a';
 const TILDA_PROJECT_ID = '1598832';
 
 if (empty($_SERVER['DOCUMENT_ROOT'])) {
@@ -37,7 +37,7 @@ try {
 }
 
 /* Пробегаем список страниц и отбираем те, которые изменились */
-var_dump($local->getProjectFullDir()); 
+//var_dump($local->getProjectFullDir()); 
 
 $arExportPages = array();
 $dir = $local->getProjectFullDir() . 'meta';
@@ -45,19 +45,15 @@ if (file_exists($dir)) {
     $d = dir($dir);
 
     while (false !== ($entry = $d->read())) {
-//var_dump($entry); 
         if ($entry != '.' && $entry != '..' && !is_dir($dir . $entry)) {
             $pageNumber = substr($entry, 4, -4);
-//var_dump($pageNumber);
             if (
                 intval($pageNumber) . '' == $pageNumber
                 && $pageNumber > 0
                 && substr($entry, 0, 4) == 'page'
             ) {
-//var_dump($pageNumber);  
               $arPage = include $d->path . DIRECTORY_SEPARATOR . $entry;
 
-var_dump($d->path . DIRECTORY_SEPARATOR . $entry);
                 if (!empty($arPage['needsync'])) {
                     $arExportPages[] = intval($pageNumber);
                 }
@@ -66,23 +62,22 @@ var_dump($d->path . DIRECTORY_SEPARATOR . $entry);
     }
     $d->close();
 }
-var_dump($arExportPages); 
 /* если все таки есть, что экспортировать */
 if (count($arExportPages)) {
 
-
+var_dump('hello alain 1'); 
     /*  берем данные по общим файлам проекта */
     $arProject = $api->getProjectInfo(TILDA_PROJECT_ID);
     if (!$arProject) {
         die('Not found project [' . $api->lastError . ']');
     }
     $local->setProject($arProject);
-
+var_dump('hello alain 2');
     /* создаем основные директории проекта (если еще не созданы) */
     if ($local->createBaseFolders() === false) {
         die("Error for create folders" . PHP_EOL . $local->lastError . PHP_EOL);
     }
-
+var_dump('hello alain 3');
     echo '<pre>';
 
     /* копируем общие IMG файлы */
@@ -90,6 +85,8 @@ if (count($arExportPages)) {
     if (!$arFiles) {
         die('Error in copy IMG files [' . $api->lastError . ']');
     }
+
+var_dump('hello alain 4');
     print_r($arFiles);
 
     $countExport = 0;
@@ -97,7 +94,7 @@ if (count($arExportPages)) {
     foreach ($arExportPages as $pageid) {
         try {
             echo 'Export page ' . $pageid . PHP_EOL;
-
+var_dump ('Export page ' . $pageid . PHP_EOL);
             /* запрашиваем все данные для экспорта страницы */
             $tildaPage = $api->getPageFullExport($pageid);
             if (!$tildaPage || empty($tildaPage['html'])) {

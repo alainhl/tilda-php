@@ -17,8 +17,8 @@
 ///////////////////////////////////////////////////////////////////////////////
 include '..' . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'classes' . DIRECTORY_SEPARATOR . 'Tilda' . DIRECTORY_SEPARATOR . 'LocalProject.php';
 
-const TILDA_PUBLIC_KEY = 'x6i6nirjatlmk171cnzs';
-const TILDA_SECRET_KEY = 'cacf61136451915f7113';
+const TILDA_PUBLIC_KEY = 'jcglbyjt9agzyadhv2e1';
+const TILDA_SECRET_KEY = 'ec18a22c94bf0b0d080a';
 const TILDA_PROJECT_ID = '1598832';
 
 try {
